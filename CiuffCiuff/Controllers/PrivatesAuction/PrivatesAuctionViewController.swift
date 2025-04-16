@@ -201,7 +201,7 @@ class PrivatesAuctionViewController: UIViewController {
             
         case .g1846:
             let minorPrivateIndexes: [Int] = Array<Int>((self.gameState.privatesPrices.count - 2)..<self.gameState.privatesPrices.count)
-            let minorCmpIndexes = [self.gameState.getGlobalIndex(forEntity: "Big 4"), self.gameState.getGlobalIndex(forEntity: "MS")]
+            let minorCmpIndexes = [self.gameState.getGlobalIndex(forEntity: "Big_4"), self.gameState.getGlobalIndex(forEntity: "MS")]
             
             for (i, minorPrivateIdx) in minorPrivateIndexes.enumerated() {
                 self.accompanyingCompaniesIndexes[minorPrivateIdx] = minorCmpIndexes[i]
@@ -832,7 +832,7 @@ class PrivatesAuctionViewController: UIViewController {
             
             var faceValueAmount = Int(self.gameState.privatesPrices[self.privateIndexSelected])
             if self.gameState.game == .g1846 {
-                if self.gameState.privatesLabels[self.privateIndexSelected] == "Big 4" {
+                if self.gameState.privatesLabels[self.privateIndexSelected] == "Big_4" {
                     faceValueAmount = 100
                 } else if self.gameState.privatesLabels[self.privateIndexSelected] == "MS" {
                     faceValueAmount = 140

@@ -265,7 +265,7 @@ class PlayerSellPrivateViewController: UIViewController, Operable {
                     opsToBePerformed.append(operation)
                     
                     if self.gameState.game == .g1846 && privateBaseIndex == self.gameState.privatesPrices.count - 2 {
-                        let big4GlobalIdx = self.gameState.getGlobalIndex(forEntity: "Big 4")
+                        let big4GlobalIdx = self.gameState.getGlobalIndex(forEntity: "Big_4")
                         let big4Amount = self.gameState.getCompanyAmount(atIndex: big4GlobalIdx)
                         
                         if big4Amount > 0 {

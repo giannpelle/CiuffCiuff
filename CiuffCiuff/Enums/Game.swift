@@ -240,14 +240,14 @@ enum Game: String, Codable {
             metadata["roundOperationTypeColors"] = [UIColor.greenORColor, UIColor.yellowORColor, UIColor.white]
             metadata["roundOperationTypeTextColors"] = [UIColor.white, UIColor.black, UIColor.black]
             
-            metadata["companies"] = ["B&O", "C&O", "ERIE", "GTR", "IC", "NYC", "PRR", "Big 4", "MS"]
+            metadata["companies"] = ["B&O", "C&O", "ERIE", "GTR", "IC", "NYC", "PRR", "Big_4", "MS"]
             metadata["floatModifiers"] = Array(repeating: 0, count: 9)
             metadata["companiesTypes"] = Array(repeating: CompanyType.standard, count: 7) + Array(repeating: CompanyType.g1846Miniature, count: 2)
             metadata["compTotShares"] = Array(repeating: 10.0, count: 7) + Array(repeating: 2.0, count: 2)
             metadata["predefinedShareAmounts"] = [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0]
             metadata["printShareAmountsAsInt"] = true
             metadata["shareStartingLocation"] = ShareStartingLocation.company
-            metadata["compLogos"] = ["B&O_46", "C&O_46", "ERIE_46", "GTR_46", "IC_46", "NYC_46", "PRR_46", "Big 4_46", "MS_46"]
+            metadata["compLogos"] = ["B&O_46", "C&O_46", "ERIE_46", "GTR_46", "IC_46", "NYC_46", "PRR_46", "Big_4_46", "MS_46"]
             metadata["compColors"] = [
                 UIColor.fromHex("00548F"),
                 UIColor.fromHex("AEDBEB"),
@@ -1323,8 +1323,8 @@ enum Game: String, Codable {
             
         case .g1846:
             let miniatureBig4CompOp = Operation(type: .float, uid: nil)
-            miniatureBig4CompOp.addCashDetails(sourceIndex: BankIndex.bank.rawValue, destinationIndex: gameState.getGlobalIndex(forEntity: "Big 4"), amount: 40)
-            miniatureBig4CompOp.addSharesDetails(shareSourceIndex: gameState.getGlobalIndex(forEntity: "Big 4"), shareDestinationIndex: gameState.getGlobalIndex(forEntity: "Big 4"), shareAmount: 1, shareCompanyBaseIndex: gameState.getBaseIndex(forEntity: "Big 4"))
+            miniatureBig4CompOp.addCashDetails(sourceIndex: BankIndex.bank.rawValue, destinationIndex: gameState.getGlobalIndex(forEntity: "Big_4"), amount: 40)
+            miniatureBig4CompOp.addSharesDetails(shareSourceIndex: gameState.getGlobalIndex(forEntity: "Big_4"), shareDestinationIndex: gameState.getGlobalIndex(forEntity: "Big_4"), shareAmount: 1, shareCompanyBaseIndex: gameState.getBaseIndex(forEntity: "Big_4"))
             let miniatureMSCompOp = Operation(type: .float, uid: nil)
             miniatureMSCompOp.addCashDetails(sourceIndex: BankIndex.bank.rawValue, destinationIndex: gameState.getGlobalIndex(forEntity: "MS"), amount: 60)
             miniatureMSCompOp.addSharesDetails(shareSourceIndex: gameState.getGlobalIndex(forEntity: "MS"), shareDestinationIndex: gameState.getGlobalIndex(forEntity: "MS"), shareAmount: 1, shareCompanyBaseIndex: gameState.getBaseIndex(forEntity: "MS"))
