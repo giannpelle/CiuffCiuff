@@ -1,0 +1,18 @@
+@bSetup:
+@ntiles with a * (flower symbol) are used in the beginner game only
+@l
+@bPrivates auction:
+@n2 players -> use A - E privates
+3 players -> use A - F privates
+4+ players -> use A - G privates
+@l
+@bFloat: @n50%
+@l
+@bBuilding tracks: @nsemi-restrictive
+@l
+@bStock Round:
+@nSell -> Buy // Buy -> Sell
+Cannot sell in the first stock round
+@l
+@bOperating Round:
+@nOnly D-trains use gray values in off-board locations

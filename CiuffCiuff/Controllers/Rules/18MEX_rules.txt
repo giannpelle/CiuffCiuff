@@ -1,0 +1,76 @@
+@bSetup:
+@nPlace 4 "Exchange Share" in Trade-in box
+@l
+@bPrivates auction:
+@ncan re-enter in the bid if a player passes
+@l
+@bMINOR Companies:
+@nowned as a whole
+cannot buy privates
+cannot be sold
+has a 2-train (cannot sell or buy any other train)
+lays up to one yellow track
+must operate -> 50% treasury / 50% owner
+close when begin phase 3(1/2)
+@l
+@bMAJOR Companies:
+@nmay lay @u2 yellow tiles OR 1 upgrade
+@nmail contract (income of home town value) only if 1+ trains
+NdM (Mexico city), UdY (Merida)
+@l
+@bNdM Company:
+@ncan only buy / sell trains at face value
+From phase 3(1/2) (5x 3-train purchased):
+can buy its share
+minors close: exchange them with trade-in shares (treasury go into major even if not floated)
+@l
+@bNdM MERGE:
+@nafter first 5-train purchased
+If NdM not floated or If no president want to merge -> No merge
+Move 10% Ndm from trade-in into NdM IPO, certificate limits increased by one for all players
+@l
+@nBeginning with left player (against the one purchasing first 5-train):
+each player can merge a floated comp he is president of, or pass (NdM president player is skipped)
+If no-one agrees, NdM president chooses one non-floated comp (he must not have a president certificate of it)
+(If possible, choose one with president certificate in IPO)
+If president certificate owned by a player, he exchanges it with 10% trade-in NdM certificate,
+otherwise move the trade-in 10% NdM into IPO
+All players holding certificates of merging comp must sell for 50% share value, total rounded up
+First exchanging token NdM -> home town of merging comp
+Second exchanging token NdM -> one of the other tokens of merging comp
+Money and trains of merging comp go to NdM
+@l
+@bFloat: @n50%
+@l
+@bBuilding tracks: @nsemi-permissive
+@l
+@bStock Round:
+@nSell -> Buy // Buy -> Sell
+Players may Buy or sell a private (it exhausts its turn)
+Cannot sell in the first stock round
+SELL 5% (gets rounded up) even if you can make legal exchanges in certificates
+BUY 5% (gets rounded down) even if you can make legal exchanges in certificates
+SELL -> Drop one space per share sold (do not drop if selling 5%)
+5% certificates do not count against certificate limits
+(trade-in shares prevent bump)
+@l
+@bOperating Round:
+@nCompany shares pay company (not the bank)
+Trains count the number of cities/off-board (towns are not counted)
+4D-trains double the revenues of cities and off-boards (not towns)
+Payout del 5% is rounded up
+Until the first 4-train is purchased, @umax 1 train can be purchased from bank per OP turn
+@l
+@nWhen second 6-train is purchased, remove 4-trains from BANK, mark other OBSOLETE
+(one more run, then discard and can buy new trains)
+@l
+@bEND GAME:
+@nplayer bankrupt -> ends immediately
+Bank bankrupt -> end current OP round, if during stock round perform one extra OP
+Comp reaches 200$+ share value -> end current OP round, if during stock round perform one extra OP
+@l
+@bVariants:
+@nmajor companies may lay 3 yellow tracks on their first OR
+allow companies to buy KCM&O private from beginning (at max 40$)
+minor companies continue to operate until ALL ORs have been performed (minors close at beginning of next SR)
+4-trains are rusted immediately (no obsolescence)

@@ -1,0 +1,60 @@
+@bFloat: @ncurrent train value * 10%
+@l
+@bBuilding tracks: @nsemi-permissive
+@l
+@bStock Round:
+@nSell -> Buy / Buy -> Sell (can't sell any share bought the same exact turn)
+Cannot sell in the first stock round
+Brown section: may go over 60% (but one share at a time)
+@l
+@nincremental capitalization (for first 5 shares),
+then money are locked in bank until company reaches its destination city
+if company is started when 5-trains available -> incremental capitaliazione for all shares
+if company is started when 6-trains available -> full capitaliazione
+@l
+@nSELL -> Drop one space per share sold (5% does not drop)
+@l
+@bOperating Round:
+@n- each company may take a 100$ loan once per OR anytime (90$ if taken after pay interests phase)
+- each company pays 10$ interests for each loan it has
+(if comp cannot, it uses money from train-run income, then president's emergency)
+- @umax number of loans = number of shares in players' hands
+@n(if company exceeds at end of OR comp must redeem loans in excess)
+@l
+@nTrains count the number of stops
+@l
+@bPHASE 5 (purchase of 6-train):
+@nall loans must be repaid
+(if any company fails to do so, CGR is formed)
+if none of forming companies has operated CGR operates immediately (otherwise waits next OR)
+@l
+@ntowns may be:
+upgraded (from single town to Yellow single city)
+upgraded (from double town to Green double city)
+downgraded (from single town to Yellow single road)
+downgraded (from double town to Green double road)
+@l
+@nport token is removed
+@l
+@bCGR Formation (when first 6-train bought):
+@nall comps must repay all loans (starting with president who bought train then clockwise)
+president may contribute with personal cash but cannot force emergency sale
+@l
+@nif all companies repay all loans -> CGR does not form
+@l
+@nCGR Formation: 2x absorbed share -> 1x CGR share
+president is player with max number of CGR shares
+(if player has only 1 share, it must buy a single CGR share in following SR (can force emergency), unless another player reaches 20% CGR before)
+CGR absorb all station markers of forming companies
+(max 10 stations, must replace all if possible, other stations cost 100$)
+CGR inherits all trains from forming companies (must keep permanents but president may discard non-permanent trains)
+if CGR has no train it may borrow a diesel, but continue withholding (share value does not move) until it may buy a permanent train (CGR can "wait" and buy diesel, it is not forced to buy 6-train)
+treasury = sum of treasury of forming companies (that's it)
+share value is 100$ or average of share value of forming companies (whichever is higher)
+@l
+@nAfter purchase of first 6-train: certificate limit becomes dynamic (based on the number of open companies)
+@bGAME END:
+@nbank or player bankruptcy
+(if CGR not formed and some companies have still loans, their share values is decreased by 10$ each loan)
+@b8-trains variant:
+@nInstead of playing with Diesel, you can play with 8-trains (since Diesel trains were not popular at that time)

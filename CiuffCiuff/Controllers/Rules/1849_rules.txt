@@ -1,0 +1,83 @@
+@bSetup:
+@nif playing with 5 corporations (@uremove a 6H, 8H, 16H train@n)
+Place "Last certificate" at the bottom of each pile
+Place markers for each hex with terrain cost (it remains also for upgrades)
+determine a random order for companies
+(president certificates may only be purchased in this order)
+@l
+@bGenerals:
+@n"Phase 16 only" box in market value board is locked until phase 16 begins
+(move upwards if necessary)
+@ucompanies must pay fees for all station tokens immediately after Float
+@nR6H trains become available after purchase of first 16H
+@l
+@nwhen privates close (purchase of 12H train) -> @bMessina earthquake:
+@nremove any tile on Messina together with any station token on it (which is lost forever) for the whole set of remaining ORs Messina cannot be re-built, it may be re-built after the next SR
+@l
+@nHome city of Garibaldi may be Caltanisetta, Messina, Ragusa, Terranova or Trapani
+If Garibaldi has no open city to start it is moved last in order of company formation
+if it chooses Messina as home and it has no other stations and the hearthquake occurs it is closed immediately
+@l
+@bPrivates auction:
+@nIf overbidded, you can take back money but leave the bid marker
+@l
+@bFloat: @nincremental (home station is placed immediately on float)
+@l
+@bBuilding tracks: @nsemi-restrictive
+@l
+@bStock Round:
+@nSell -> Buy
+all stock transactions take place at the current market value
+when buying president certificate you may buy up to 40% of company shares in one action
+Cannot sell in the first stock round
+@uCannot sell if comp has not yet operated at least once @n(i.e. no immediate trash)
+@nif moved, the "last certificate" is always placed at the bottom of the stack when changing presidency, outgoing president may choose to exchange president certificate
+with last certificate if incoming president has it
+Last certificate is treated as a whole, you either buy or sell it as a whole purchase of shares from company pays the company (from the bank pays the bank)
+@uIf 1+ shares in bank pool -> DROP 1 down
+@l
+@bOperating Round:
+@nBank shares pay bank (not the company)
+Company shares pay company (not the bank)
+@l
+@nthere are narrow, standard and dual tracks
+a narrow tile may terminate in a standard tile and viceversa (but a mixed track is unusable)
+Trains count the number of hexes crossing (2x each narrow gauge, 1x each standard gauge)
+terrain cost is reduced to a fourth (1/4) if the substitution adds narrow tracks only
+@l
+@ntrains count the number of hexes intersections they run, standard tracks counts as 1x intersection, whereas narrow gauges count as 2x intersection each (R6H counts the other way, R-eversed).
+if a track is fully dual then the player decides if he want to consider it to be narrow or standard, but if there is a mix of dual and non-dual track tiles, then the whole track is considered the same type as the non-dual type.
+Ports are not considered stops (meaning you have to run at least 2 cities or 1 city + 1 town) BUT you must still count the intersection to reach the port
+@l
+@uCompany share value increased only if the payout is greater than or equal to the current market value
+@l
+@bExtra action:
+@nCompany may sell shares to the bank (any amount) for the current market value (drop 1 space per share)
+they cannot do it the first OR of the company
+OR company may buy a single certificate from the bank pool at market value
+@l
+@bClose:
+@nwhen company is closed it discards everything with no compensation at all (but may be reopened in the future)
+@l
+@bGame end:
+@nalso if company reaches top left share value
+@l
+@bAcquiring station tokens:
+@nFrom phase 6 onwards, companies may buy station tokens from other companies (from 1 L. up) if reachable by tracks after running trains and in addition to the purchase of a standard station token
+(home stations may not be traded)
+sold tokens go back to the company's chart
+@l
+@bBonds variant:
+@nFrom phase 8 onwards, companies may issue a bond to get 500 L. cash and move one step LEFT in share value from the following OR onwards they must pay 50 L. interests to the bank (emergency raising available).
+As a final action companies may repay the Bond (after paying interests) with their treasury only
+(emergency raising not possible) and move 1 step RIGHT in share value
+if company is closed with an issued bond it must be repaid immediately (emergency raising available)
+if game ends, all companies with bonds issued are worth 100 L. less in share value (to a minimum 0 L.)
+@l
+@bElectric dreams variant:
+@ncompanies may buy an E token (only from the bank, no trade between companies)
+First E token costs 1100 L. in Phase 12, 800 L. in Phase 16
+Subsequent tokens cost 800 L. in Phase 12, 550 L. in Phase 16
+one corporation = max 1 E token (it must be purchased before buying trains)
+A company with an E token may be E-trains:
+unlimited movement but cannot run on narrow tracks + double the revenue of Catania, Messina, Palermo and Siracusa

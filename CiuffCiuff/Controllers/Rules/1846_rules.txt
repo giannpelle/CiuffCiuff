@@ -1,0 +1,41 @@
+@bSetup:
+@nif playing with 5 players -> remove 1 [square], 1 (round) private company
+if playing with 4 players -> remove 2 [square], 2 (round), 1 <diamond> company
+if playing with 3 players -> remove 3 [square], 3 (round), 2 <diamond> companies
+@l
+@bPrivates auction:
+@non your turn you draw #players + 2 cards, choose one and keep it secret
+if you do not wish to buy a private select a player pass card instead
+if there are only private companies you must select one
+if deck runs out and remains only 1 private, reveal it face-up:
+current player may buy it at face value, or reduce the face value by 10
+and passing the turn to next player, who can do the same
+a player must take it for free if its price falls to 0
+@l
+@bGenerals:
+@nthere will always be 2 ORs, no matter the game phase
+the very first OR will be played in reverse share value prices
+@bFloat: @nincremental
+@l
+@bBuilding tracks: @nsemi-restrictive
+@l
+@bStock Round:
+@nSell -> Buy
+Only the current President may sell a corporation's stock
+before the corporation has operated (at least once)
+Drop 1x left, only if seller is current president (no matter #shares)
+@uIf 1+ shares in bank pool -> DROP 1 left
+@l
+@bOperating Round:
+@nBank shares pay bank (not the company)
+Company shares pay company (not the bank)
+@l
+@uCompany share value increases based on the table show on market board
+@l
+@bExtra actions:
+@nCompany may issue shares to the bank (up to #shares in player hands - #shares in bank)
+for one lower market share value (do not drop)
+Company may buy any amount of shares from the bank pool at one higher market share value
+@l
+@bClose:
+@nwhen company is closed it discards everything with no compensation at all

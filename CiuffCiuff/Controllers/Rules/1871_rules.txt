@@ -1,0 +1,34 @@
+
+Setup:
+
+Use * (star) components for the 1830 Classic game mode
+Use the correct side of the board
+PMQ, N&W, NKP, RDR do not enter in game
+6x 2-trains, 5x 3-trains, 4x 4-trains, 3x 5-trains, 2x 6-trains, 6x D-trains
+
+
+Privates auction:
+
+If overbidded, you can take back money but leave the bid marker
+to overbid -> at least 5£ more, any amount or a multiple of 5 (must agree together)
+If all players pass (at least one private sold), perform an operating round
+If all players pass (no privates sold), minus 5 $ to first private's face value. If cost reach 0 $, first player must take it for free
+Priority deal to the player to the left of the last purchasing a private company for face value
+
+
+Float: 60%
+
+Building tracks: permissive (otherwise agree together)
+
+Stock Round:
+
+Sell -> Buy -> Sell (otherwise agree together)
+Cannot sell in the first stock round
+SELL -> Drop one space per share sold
+Priority deal to the left of the last player doing something, if all players pass it does not move
+If 100% shares sold, it bumps one space
+
+
+Operating Round:
+Eire blocks both cities until it enters the game (otherwise it blocks a single city space, must agree together)
+Trains count the number of stops

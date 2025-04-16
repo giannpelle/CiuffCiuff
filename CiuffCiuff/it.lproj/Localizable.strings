@@ -1,0 +1,87 @@
+/* 
+  Localizable.strings
+  CiuffCiuff
+
+  Created by Gianluigi Pelle on 15/01/23.
+  
+*/
+
+"NEW OPERATION ROUND" = "NUOVO ROUND OPERATIVO";
+"CASH" = "CASH";
+"INCOME" = "RENDITA";
+"PAYOUT" = "DIVIDENDI";
+"WITHHOLD" = "TRATTIENE";
+"NEWROUND" = "NUOVO ROUND";
+"SHARES" = "AZIONI";
+"PRIVATES" = "PRIVATE";
+"TRAINS" = "TRENI";
+"SELL" = "VENDITA";
+"BUY" = "ACQUISTO";
+"TOKENS" = "TOKENS";
+"CLOSE" = "CHIUDI";
+"TRAIN EMERGENCY" = "EMERGENZA TRENO";
+
+"nothing" = "niente";
+"null operation" = "operazione nulla";
+
+"YES" = "SI";
+
+"ATTENTION" = "ATTENZIONE";
+"Attention" = "Attenzione";
+"You must enter at least 2 players name to begin" = "Devi inserire almeno 2 giocatori per iniziare";
+
+"You cannot enter a player's name longer than 8 characters" = "Non puoi inserire nomi di giocatori più lunghi di 8 caratteri";
+
+"Bank" = "Banca";
+
+"There must be a complete operation round to follow in order to go infinite" = "Deve esserci un round operativo completo da seguire per andare all'infinito";
+
+"There must be at least a payout operation in order to go infinite" = "Deve esserci almeno un'operazione di tipo dividendi per andare all'infinito";
+
+"Are you sure you want to go infinite?" = "Sei sicuro di voler andare all'infinito?";
+
+"Let's go infinite" = "Vai all'infinito";
+
+"The bank has gone bankrupt" = "La banca è andata in bancarotta";
+
+"A player has gone bankrupt" = "Un giocatore è andato in bancarotta";
+
+"Cancel" = "Annulla";
+
+"You can only go infinite right after the completion of an operation round" = "Puoi andare all'inifito solo immediatamente dopo la fine di un round operativo";
+
+"You must complete at least one operation round to get the payout delta" = "Devi completare almeno un round operativo per calcolare i delta dei dividendi";
+
+"There must be at least a payout operation in order to calculate deltas" = "Deve esserci almeno un'operazione di tipo dividendi per calcolare i delta";
+
+"Are you sure you want to delete the game data and start a new game?" = "Sei sicuro di voler eliminare la partita e iniziarne una nuova?";
+
+"shares" = "azioni";
+
+"Amount unavailable from source" = "Quantità non disponibile dal mittente";
+
+"The amount of the operation is zero" = "La somma dell'operazione è zero";
+
+"Are you sure you want to undo all operations including the selected one?" = "Sei sicuro di voler annullare tutte le ultime operazioni inclusa questa?";
+
+"GAME START" = "INIZIO PARTITA";
+
+"The selected game cannot be played with the specified number of players" = "Il gioco selezionato non può essere giocato con il numero di giocatori specificato";
+
+"The company has already operated in this round" = "La compagnia ha già operato in questo round";
+
+"You cannot redo an operation from a previous round" = "Non pupoi riattivare un'operazione di un round precedente";
+
+"Is this the last company that should operate in this round?" = "E' questa l'ultima compagnia che dovvrebbe operare questo round?";
+
+"No operation was performed, correct the data and try again" = "L'operazione non è stata eseguita, correggi i dati e riprova";
+
+"Are you sure you want to close the company" = "Sei sicuro di voler chiudere la compagnia";
+
+"The operation you tried to enable/disable is illegal" = "L'operazione che hai provato a riattivare/annullare è illegale";
+
+"This action is not available\ngiven the current state of the game" = "Questa azione non è disponibile\nper lo stato di gioco attuale";
+
+"It sums up all Payout operations until the last Buy operation,\nthen display the total money earnings for each player" = "Somma tutte le operazioni di tipo Payout fino all'ultima operazione di Buy,\npoi mostra la somma totale di soldi incassati dai singoli giocatori";
+
+"Invalid input in amount" = "Il valore del treno è stato inserito erroneamente";

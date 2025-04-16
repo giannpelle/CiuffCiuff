@@ -1,0 +1,38 @@
+@bSetup:
+@nset aside "extra trains" (3, 4, 5, 6), shuffle and select one
+place NWR card under the first train of the type selected
+set aside the "extra trains" (will be used when private P2 is used)
+@l
+@nwhen NWR card is revealed, remove all yellow tiles in NWR hexes (station markers remain)
+discarded trains due to train limit do not enter the market (i.e. are removed)
+@l
+@nFishing city is a wildcard stop:
+- can either be used as a stop to make a 2-stop route
+- can be freely added to a legal route (do not count its stop against train stops limit)
+@l
+@nBonus 100£ if a train goes all the way from an East city to a West city
+@l
+@uBeware of a misprint: train limit in phase 5 is 3
+@l
+@bFloat: @n60%
+@l
+@bBuilding tracks: @npermissive
+@l
+@bStock Round:
+@nSell -> Buy -> Sell
+Cannot sell in the first stock round
+@l
+@nCNR president certificate may only be purchased if 1+ neutral station in play
+CNR plays with neutral stations only,
+it operates even in the case where there are no neutral stations
+@l
+@bOperating Round:
+@nNeutral stations are free but make cities open for all
+max 1 neutral station marker per city
+@l
+@btrack laying: @n1 yellow / 2 yellow (pay 20£) / 1 upgrade
+placing tracks in NWR hexes generate 20£ income for each
+when connecting two tiles, pay for the bridge if necessary
+@l
+@bGame end:
+@nalso if company reaches top left share value

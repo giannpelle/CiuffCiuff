@@ -1,0 +1,23 @@
+@b1830 classic
+
+Setup:
+@nUse * (star) components for the 1830 Classic game mode
+Use the correct side of the board
+PMQ, N&W, NKP, RDR do not enter in game
+6x 2-trains, 5x 3-trains, 4x 4-trains, 3x 5-trains, 2x 6-trains, 6x D-trains
+@uUse correction tiles:
+@n- 30q (Ottowa B16 should not cost 40$)
+- 30l (Detroit should cost 80$)
+@l
+@bFloat: @n60%
+@l
+@bBuilding tracks: @npermissive
+@l
+@bStock Round:
+@nSell -> Buy -> Sell
+Cannot sell in the first stock round
+@l
+@nSELL -> Drop one space per share sold
+@l
+@bOperating Round:
+@nTrains count the number of stops

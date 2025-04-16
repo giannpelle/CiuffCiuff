@@ -1,0 +1,1379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2303C734295DDB2800901E21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2303C733295DDB2800901E21 /* AppDelegate.swift */; };
+		2303C738295DDB2800901E21 /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2303C737295DDB2800901E21 /* SetupViewController.swift */; };
+		2303C73B295DDB2800901E21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2303C739295DDB2800901E21 /* Main.storyboard */; };
+		2303C73D295DDB2A00901E21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2303C73C295DDB2A00901E21 /* Assets.xcassets */; };
+		2303C740295DDB2A00901E21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2303C73E295DDB2A00901E21 /* LaunchScreen.storyboard */; };
+		2303C748295E449900901E21 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2303C747295E449900901E21 /* HomeViewController.swift */; };
+		2303C74A295E479800901E21 /* CompanyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2303C749295E479800901E21 /* CompanyCollectionViewCell.swift */; };
+		2303C74C295E47A500901E21 /* PlayerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2303C74B295E47A500901E21 /* PlayerCollectionViewCell.swift */; };
+		2359975529620BF800D0F043 /* OpManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359975429620BF800D0F043 /* OpManagerViewController.swift */; };
+		23B0E06A29BF875E00E5E15F /* CashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B0E06929BF875E00E5E15F /* CashViewController.swift */; };
+		23B0E06C29C0CB3800E5E15F /* CompanyBuyPrivateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B0E06B29C0CB3800E5E15F /* CompanyBuyPrivateViewController.swift */; };
+		23B0E06E29C1DE6000E5E15F /* CompanyBuyOwnSharesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B0E06D29C1DE6000E5E15F /* CompanyBuyOwnSharesViewController.swift */; };
+		23B0E07029C21D2C00E5E15F /* CompanySellOwnSharesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B0E06F29C21D2C00E5E15F /* CompanySellOwnSharesViewController.swift */; };
+		23B0E07229C37FF800E5E15F /* AmountCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B0E07129C37FF800E5E15F /* AmountCollectionViewCell.swift */; };
+		23C74EFC2975D5C300BE33CE /* SharesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C74EFB2975D5C300BE33CE /* SharesViewController.swift */; };
+		23C74EFE2975D71900BE33CE /* ShareCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C74EFD2975D71900BE33CE /* ShareCollectionViewCell.swift */; };
+		23D2290A29647305008AE8FC /* CompanyOperateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D2290929647305008AE8FC /* CompanyOperateViewController.swift */; };
+		23D2290E296499D6008AE8FC /* ShareholderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D2290D296499D6008AE8FC /* ShareholderCollectionViewCell.swift */; };
+		23D229102966C66E008AE8FC /* IncomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D2290F2966C66E008AE8FC /* IncomeViewController.swift */; };
+		23D229122966C713008AE8FC /* PrivateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D229112966C713008AE8FC /* PrivateCollectionViewCell.swift */; };
+		23D2291429670850008AE8FC /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D2291329670850008AE8FC /* HistoryViewController.swift */; };
+		23D2291629670AEE008AE8FC /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D2291529670AEE008AE8FC /* HistoryTableViewCell.swift */; };
+		23EF2F3529B8F56C0068DC71 /* CompanyBuyTrainsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EF2F3429B8F56C0068DC71 /* CompanyBuyTrainsViewController.swift */; };
+		23EF2F3729B8F5740068DC71 /* CompanyBuyTokensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EF2F3629B8F5740068DC71 /* CompanyBuyTokensViewController.swift */; };
+		23EF2F3929B8F57C0068DC71 /* PlayerBuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EF2F3829B8F57C0068DC71 /* PlayerBuyViewController.swift */; };
+		23EF2F3B29B8F5820068DC71 /* PlayerSellCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EF2F3A29B8F5820068DC71 /* PlayerSellCustomViewController.swift */; };
+		23EF2F3D29B914BB0068DC71 /* PlayerSellPrivateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EF2F3C29B914BB0068DC71 /* PlayerSellPrivateViewController.swift */; };
+		EF0074172DA5300E00358056 /* G1846MarketCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0074162DA5300000358056 /* G1846MarketCollectionViewCell.swift */; };
+		EF01F28F2D861E2700FF5CD9 /* ZoomedInPrivateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF01F28E2D861E2700FF5CD9 /* ZoomedInPrivateCollectionViewCell.swift */; };
+		EF04F08B2B6D4658002B32D1 /* RoundTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF04F08A2B6D4658002B32D1 /* RoundTypeTableViewCell.swift */; };
+		EF061DDB2B98B0AE0013E191 /* ActionMenuType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF061DDA2B98B0AE0013E191 /* ActionMenuType.swift */; };
+		EF09811E2CEA0C0700FF520C /* SetupRulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF09811D2CEA0C0700FF520C /* SetupRulesViewController.swift */; };
+		EF0C01C42C668FD40094FEE2 /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0C01C32C668FD40094FEE2 /* IndicatorView.swift */; };
+		EF0C01C62C669AC10094FEE2 /* ShareValueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0C01C52C669AC10094FEE2 /* ShareValueManager.swift */; };
+		EF0C01C82C66B5E20094FEE2 /* ShareValueMovementType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0C01C72C66B5E20094FEE2 /* ShareValueMovementType.swift */; };
+		EF0C01CA2C68CCC90094FEE2 /* UICollectionViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0C01C92C68CCC90094FEE2 /* UICollectionViewExtensions.swift */; };
+		EF0C01CC2C68DC5A0094FEE2 /* Company18MEXMergeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0C01CB2C68DC5A0094FEE2 /* Company18MEXMergeViewController.swift */; };
+		EF16B8492D94AE5700DE4E0F /* G1846SquarePrivateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16B8482D94AE4600DE4E0F /* G1846SquarePrivateCollectionViewCell.swift */; };
+		EF16B84B2D94AE6700DE4E0F /* G1846RoundPrivateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16B84A2D94AE5A00DE4E0F /* G1846RoundPrivateCollectionViewCell.swift */; };
+		EF16B84D2D94AE8100DE4E0F /* G1846DiamondCompanyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16B84C2D94AE7000DE4E0F /* G1846DiamondCompanyCollectionViewCell.swift */; };
+		EF17AC6B2D8A009400EEBEB4 /* RoundTypeClassicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17AC6A2D8A008200EEBEB4 /* RoundTypeClassicCollectionViewCell.swift */; };
+		EF17AC6D2D8A00A200EEBEB4 /* RoundTypeClassicLastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17AC6C2D8A009700EEBEB4 /* RoundTypeClassicLastCollectionViewCell.swift */; };
+		EF17AC6F2D8A168300EEBEB4 /* RoundType1840CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17AC6E2D8A167500EEBEB4 /* RoundType1840CollectionViewCell.swift */; };
+		EF17AC712D8A1E2300EEBEB4 /* RoundType1840LastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17AC702D8A1E1800EEBEB4 /* RoundType1840LastCollectionViewCell.swift */; };
+		EF1B2A242D722B3D0065C86E /* CashAmountCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1B2A232D722B2E0065C86E /* CashAmountCollectionViewCell.swift */; };
+		EF1C13A22CD17E160046CE56 /* LoansCompanyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1C13A12CD17E160046CE56 /* LoansCompanyCollectionViewCell.swift */; };
+		EF1C13A42CD180970046CE56 /* Company1856LoansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1C13A32CD180970046CE56 /* Company1856LoansViewController.swift */; };
+		EF1C1A642B5154020076A49A /* IndexType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1C1A632B5154020076A49A /* IndexType.swift */; };
+		EF1C1A662B5154100076A49A /* ShareStartingLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1C1A652B5154100076A49A /* ShareStartingLocation.swift */; };
+		EF1C1A682B51541D0076A49A /* BankIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1C1A672B51541D0076A49A /* BankIndex.swift */; };
+		EF1C1A6A2B5154310076A49A /* OperationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1C1A692B5154310076A49A /* OperationType.swift */; };
+		EF1C1A6C2B51543D0076A49A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1C1A6B2B51543D0076A49A /* Game.swift */; };
+		EF1C1A6F2B51557B0076A49A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1C1A6E2B51557B0076A49A /* Color.swift */; };
+		EF1C1A712B5155930076A49A /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1C1A702B5155930076A49A /* GameState.swift */; };
+		EF1C1A732B5155BD0076A49A /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1C1A722B5155BD0076A49A /* Operation.swift */; };
+		EF1C1A872B51609B0076A49A /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1C1A5C2B5153990076A49A /* UIColorExtensions.swift */; };
+		EF1C1A882B51609F0076A49A /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1C1A5E2B5153B00076A49A /* UIImageExtensions.swift */; };
+		EF1C1A892B5160A30076A49A /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1C1A602B5153C60076A49A /* StringExtensions.swift */; };
+		EF2DAC0F2D9A9C090043A5C6 /* SetupSeatingOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2DAC0E2D9A9BFE0043A5C6 /* SetupSeatingOrderViewController.swift */; };
+		EF2E189C2D921C5D00D508C0 /* CreditsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2E189B2D921C5300D508C0 /* CreditsCollectionViewCell.swift */; };
+		EF2E604D2CDB7A6A00B5F2AE /* PlayerBuyCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2E604C2CDB7A6A00B5F2AE /* PlayerBuyCustomViewController.swift */; };
+		EF30E1402D0207D000E1B0B2 /* 1840_rules.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF30E13F2D0207D000E1B0B2 /* 1840_rules.txt */; };
+		EF3945232D2C590900D7BAC0 /* G1840CompanyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3945222D2C590900D7BAC0 /* G1840CompanyCollectionViewCell.swift */; };
+		EF3B2BC22B5C040300C930FB /* RulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3B2BC12B5C040300C930FB /* RulesViewController.swift */; };
+		EF3B2BC42B5C052200C930FB /* 18Ch_rules.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF3B2BC32B5C052200C930FB /* 18Ch_rules.txt */; };
+		EF3B2BC82B5C05A500C930FB /* 18CZ_rules.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF3B2BC72B5C05A500C930FB /* 18CZ_rules.txt */; };
+		EF3B2BCA2B5C05B200C930FB /* 18MEX_rules.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF3B2BC92B5C05B200C930FB /* 18MEX_rules.txt */; };
+		EF3B2BCC2B5C05C600C930FB /* 1830_rules.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF3B2BCB2B5C05C600C930FB /* 1830_rules.txt */; };
+		EF3B2BCE2B5C05D100C930FB /* 1846_rules.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF3B2BCD2B5C05D100C930FB /* 1846_rules.txt */; };
+		EF3B2BD02B5C05E100C930FB /* 1848_rules.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF3B2BCF2B5C05E100C930FB /* 1848_rules.txt */; };
+		EF3B2BD22B5C05F200C930FB /* 1849_rules.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF3B2BD12B5C05F200C930FB /* 1849_rules.txt */; };
+		EF3B2BD42B5C060100C930FB /* 1871_rules.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF3B2BD32B5C060100C930FB /* 1871_rules.txt */; };
+		EF3B2BD62B5C060F00C930FB /* 1882_rules.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF3B2BD52B5C060F00C930FB /* 1882_rules.txt */; };
+		EF3B2BD82B5C061A00C930FB /* 1889_rules.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF3B2BD72B5C061A00C930FB /* 1889_rules.txt */; };
+		EF424A6A2D47B77900AE39BC /* WSTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF424A692D47B77900AE39BC /* WSTagView.swift */; };
+		EF424A6B2D47B77900AE39BC /* WSTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF424A672D47B77900AE39BC /* WSTag.swift */; };
+		EF424A6C2D47B77900AE39BC /* WSTagsField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF424A682D47B77900AE39BC /* WSTagsField.swift */; };
+		EF424A6D2D47B77900AE39BC /* BackspaceDetectingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF424A652D47B77900AE39BC /* BackspaceDetectingTextField.swift */; };
+		EF424A6E2D47B77900AE39BC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF424A662D47B77900AE39BC /* Constants.swift */; };
+		EF424A742D48DEB200AE39BC /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF424A732D48DEAF00AE39BC /* SheetView.swift */; };
+		EF46FA952D9D8E620096FA5F /* OpManagerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF46FA942D9D8E5D0096FA5F /* OpManagerProtocols.swift */; };
+		EF46FA992D9D97EB0096FA5F /* CompanyCloseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF46FA982D9D97E60096FA5F /* CompanyCloseViewController.swift */; };
+		EF46FA9B2D9D9F870096FA5F /* Company18MEXCloseMinorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF46FA9A2D9D9F7E0096FA5F /* Company18MEXCloseMinorsViewController.swift */; };
+		EF49CEDA2B1F36C8005C9C2A /* CompanyMakeAcquisitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF49CED92B1F36C8005C9C2A /* CompanyMakeAcquisitionViewController.swift */; };
+		EF4E9CF82D294AC3009F63B0 /* CustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4E9CF72D294AC2009F63B0 /* CustomAlertViewController.swift */; };
+		EF4E9CFB2D296833009F63B0 /* CustomPickerViewAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4E9CFA2D296833009F63B0 /* CustomPickerViewAlertViewController.swift */; };
+		EF4E9CFD2D2997D9009F63B0 /* CustomMultiselectionPickerViewAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4E9CFC2D2997D9009F63B0 /* CustomMultiselectionPickerViewAlertViewController.swift */; };
+		EF5203B22B62BD4900BDAD3F /* UITextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5203B12B62BD4900BDAD3F /* UITextFieldExtensions.swift */; };
+		EF56735C2D8DE48B00BA4E87 /* G1840LineCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF56735B2D8DE47E00BA4E87 /* G1840LineCollectionViewCell.swift */; };
+		EF59722B2D0B516A000990EC /* Company1840OperateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF59722A2D0B516A000990EC /* Company1840OperateViewController.swift */; };
+		EF59722E2D0C9092000990EC /* Shareholder1840CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF59722D2D0C9092000990EC /* Shareholder1840CollectionViewCell.swift */; };
+		EF5972312D0F253F000990EC /* G1840SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5972302D0F253F000990EC /* G1840SetupViewController.swift */; };
+		EF5A3C042D0370A200F81C43 /* Player1840LoansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5A3C032D0370A200F81C43 /* Player1840LoansViewController.swift */; };
+		EF62DB482C4ACA500083EBF3 /* G1830SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF62DB472C4ACA500083EBF3 /* G1830SetupViewController.swift */; };
+		EF62DB4A2C4B0A630083EBF3 /* SetupPrivateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF62DB492C4B0A630083EBF3 /* SetupPrivateCollectionViewCell.swift */; };
+		EF62DB4C2C4B0A6F0083EBF3 /* SetupCompanyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF62DB4B2C4B0A6F0083EBF3 /* SetupCompanyCollectionViewCell.swift */; };
+		EF672AEC2CC6E73F00AF5F3E /* G1849SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF672AEB2CC6E73F00AF5F3E /* G1849SetupViewController.swift */; };
+		EF787D752D119FE200ED156E /* PlayerSellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF787D742D119FE200ED156E /* PlayerSellViewController.swift */; };
+		EF787D772D11A0F000ED156E /* PlayerSellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF787D762D11A0F000ED156E /* PlayerSellCollectionViewCell.swift */; };
+		EF787D7A2D16D5C100ED156E /* PrivateAuctionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF787D792D16D5C100ED156E /* PrivateAuctionCollectionViewCell.swift */; };
+		EF795A212C6ACC7B00464BF6 /* Company1848CloseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF795A202C6ACC7B00464BF6 /* Company1848CloseViewController.swift */; };
+		EF7B0C2D2D2DD2E900DF58D0 /* GameSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7B0C2C2D2DD2E900DF58D0 /* GameSelectionViewController.swift */; };
+		EF7B0C2F2D2DD38100DF58D0 /* GameCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7B0C2E2D2DD38100DF58D0 /* GameCollectionViewCell.swift */; };
+		EF7B0C312D314E3200DF58D0 /* Company1848LoansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7B0C302D314E3200DF58D0 /* Company1848LoansViewController.swift */; };
+		EF7CF0F12BE8EDE800979C51 /* CurrencyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7CF0F02BE8EDE800979C51 /* CurrencyType.swift */; };
+		EF7F86112D64AEC500888683 /* CustomReorderShareValuesAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7F86102D64AE9100888683 /* CustomReorderShareValuesAlertViewController.swift */; };
+		EF7F86132D64B1B300888683 /* ReorderCompanyShareIndexesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7F86122D64B1B000888683 /* ReorderCompanyShareIndexesCollectionViewCell.swift */; };
+		EF83EE452D87764000CDFE9E /* CustomTextViewAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF83EE442D87763600CDFE9E /* CustomTextViewAlertViewController.swift */; };
+		EF83EE472D8843E200CDFE9E /* G18ChSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF83EE462D8843D500CDFE9E /* G18ChSetupViewController.swift */; };
+		EF84443E2CF79AC2001AB5A9 /* TutorialPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF84443D2CF79AC2001AB5A9 /* TutorialPageViewController.swift */; };
+		EF8444402CF79BBC001AB5A9 /* SingleScreenTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF84443F2CF79BBC001AB5A9 /* SingleScreenTutorialViewController.swift */; };
+		EF8444432CF7A1AE001AB5A9 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8444422CF7A1AE001AB5A9 /* TutorialViewController.swift */; };
+		EF8700C52DAD88A900F61E68 /* StrokeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8700C42DAD88A000F61E68 /* StrokeLabel.swift */; };
+		EF88B19A2BD4299A005C2CA3 /* CompanyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF88B1992BD4299A005C2CA3 /* CompanyType.swift */; };
+		EF8B55362DA9927E004914C8 /* Company1846IssueSharesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8B55352DA9926F004914C8 /* Company1846IssueSharesViewController.swift */; };
+		EF8B55382DA99289004914C8 /* Company1846RedeemSharesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8B55372DA99281004914C8 /* Company1846RedeemSharesViewController.swift */; };
+		EF8D0E402CC0598D00C7AC02 /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8D0E3F2CC0597F00C7AC02 /* UIButtonExtensions.swift */; };
+		EF93A4D22CBE677E009C6C1A /* Company1849BondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF93A4D12CBE677E009C6C1A /* Company1849BondViewController.swift */; };
+		EF9B86BE2D19DB0B00CB6FE5 /* RoundTrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9B86BD2D19DB0B00CB6FE5 /* RoundTrackViewController.swift */; };
+		EF9B86C02D19DF8200CB6FE5 /* BumpCompanyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9B86BF2D19DF8200CB6FE5 /* BumpCompanyCollectionViewCell.swift */; };
+		EF9B86C22D19DFD700CB6FE5 /* DropCompanyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9B86C12D19DFD700CB6FE5 /* DropCompanyCollectionViewCell.swift */; };
+		EF9B86C82D19E95400CB6FE5 /* InsolventCompanySwitchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9B86C72D19E95400CB6FE5 /* InsolventCompanySwitchCollectionViewCell.swift */; };
+		EF9B86CA2D1C1D4F00CB6FE5 /* PlayerTurnOrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9B86C92D1C1D4F00CB6FE5 /* PlayerTurnOrderType.swift */; };
+		EF9B86CC2D1D950B00CB6FE5 /* PlayerTurnOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9B86CB2D1D950B00CB6FE5 /* PlayerTurnOrderViewController.swift */; };
+		EF9B86CE2D1DA0EC00CB6FE5 /* PlayerTurnOrderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9B86CD2D1DA0EC00CB6FE5 /* PlayerTurnOrderCollectionViewCell.swift */; };
+		EF9C95C92BB6C53A00E786B4 /* PayoutRoundPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9C95C82BB6C53A00E786B4 /* PayoutRoundPolicy.swift */; };
+		EF9C95CB2BB6E85600E786B4 /* BuySellRoundPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9C95CA2BB6E85600E786B4 /* BuySellRoundPolicy.swift */; };
+		EFA06A7A2D50FC2000EDE4C3 /* CustomActivityIndicatorAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA06A792D50FC1D00EDE4C3 /* CustomActivityIndicatorAlertViewController.swift */; };
+		EFA21B1A2D403AE4006BE14E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF49CEDE2B1F8D3E005C9C2A /* MessageUI.framework */; };
+		EFA21B1D2D403AE7006BE14E /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF49CEDC2B1F8D38005C9C2A /* Messages.framework */; };
+		EFA305412D4929B8006CB0A3 /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA305402D4929AB006CB0A3 /* CustomSegmentedControl.swift */; };
+		EFA5D1972C3AA72C008DE24C /* PrivatesAuctionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA5D1962C3AA72C008DE24C /* PrivatesAuctionViewController.swift */; };
+		EFAC12632CE2496F000AA5BC /* 1856_rules.txt in Resources */ = {isa = PBXBuildFile; fileRef = EFAC12622CE2496F000AA5BC /* 1856_rules.txt */; };
+		EFACB2382D68D80400CF4566 /* EditPayoutWithholdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFACB2372D68D80300CF4566 /* EditPayoutWithholdViewController.swift */; };
+		EFAEEB3D2CDD324B00FA5BE0 /* GameMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAEEB3C2CDD324B00FA5BE0 /* GameMenuViewController.swift */; };
+		EFAEFBE22DA84186008C4EC9 /* Company1846OperateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAEFBE12DA84175008C4EC9 /* Company1846OperateViewController.swift */; };
+		EFBB57DC2C98C94100B0C652 /* CompanyFloatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB57DB2C98C94100B0C652 /* CompanyFloatViewController.swift */; };
+		EFC50C822C5E7483001731FA /* OpeningPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC50C812C5E7483001731FA /* OpeningPreviewViewController.swift */; };
+		EFC50C852C5E802F001731FA /* SalePreviewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC50C842C5E802F001731FA /* SalePreviewCollectionViewCell.swift */; };
+		EFC50C892C5EE45C001731FA /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC50C882C5EE45C001731FA /* PaddingLabel.swift */; };
+		EFCBE0842CD153E900088B43 /* CustomEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCBE0832CD153D200088B43 /* CustomEnums.swift */; };
+		EFCBE0862CD15C1400088B43 /* G1856CompanyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCBE0852CD15C1400088B43 /* G1856CompanyCollectionViewCell.swift */; };
+		EFD4A5372D94A6EA0051C65F /* G1846SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4A5362D94A6E30051C65F /* G1846SetupViewController.swift */; };
+		EFD8D0562BA6E83A00A449D3 /* Company18MEXMinorOperateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD8D0552BA6E83A00A449D3 /* Company18MEXMinorOperateViewController.swift */; };
+		EFD8D0582BA703C900A449D3 /* Player18MEXTradePrivateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD8D0572BA703C900A449D3 /* Player18MEXTradePrivateViewController.swift */; };
+		EFD8D05A2BA7125400A449D3 /* Company18MEXCollectMailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD8D0592BA7125400A449D3 /* Company18MEXCollectMailViewController.swift */; };
+		EFE9345E2D56B775008FBDCF /* MarketCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE9345D2D56B76C008FBDCF /* MarketCollectionViewCell.swift */; };
+		EFE934602D575F20008FBDCF /* ReducedCompaniesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE9345F2D575F1D008FBDCF /* ReducedCompaniesCollectionViewCell.swift */; };
+		EFE934622D57802D008FBDCF /* ReducedPlayersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE934612D57801D008FBDCF /* ReducedPlayersCollectionViewCell.swift */; };
+		EFEFDAE82D9EC17E001BE260 /* Company1846MiniatureOperateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEFDAE72D9EC168001BE260 /* Company1846MiniatureOperateViewController.swift */; };
+		EFF8F6EF2CD5648A0040A9FC /* G1856CGRFloatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF8F6EE2CD5648A0040A9FC /* G1856CGRFloatViewController.swift */; };
+		EFF96DCF2D299D1000EDD7D2 /* MultiselectionPickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF96DCE2D299D1000EDD7D2 /* MultiselectionPickerCollectionViewCell.swift */; };
+		EFF96DD22D2A086500EDD7D2 /* InsolventCompanyButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF96DD12D2A086500EDD7D2 /* InsolventCompanyButtonCollectionViewCell.swift */; };
+		EFF96DD42D2AD19700EDD7D2 /* Company1840StadtbahnOperateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF96DD32D2AD19700EDD7D2 /* Company1840StadtbahnOperateViewController.swift */; };
+		EFF96DD62D2AE24000EDD7D2 /* Company1840LinesRunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF96DD52D2AE24000EDD7D2 /* Company1840LinesRunViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2303C730295DDB2800901E21 /* CiuffCiuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CiuffCiuff.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2303C733295DDB2800901E21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2303C737295DDB2800901E21 /* SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		2303C73A295DDB2800901E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2303C73C295DDB2A00901E21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2303C73F295DDB2A00901E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2303C741295DDB2A00901E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2303C747295E449900901E21 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2303C749295E479800901E21 /* CompanyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyCollectionViewCell.swift; sourceTree = "<group>"; };
+		2303C74B295E47A500901E21 /* PlayerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCollectionViewCell.swift; sourceTree = "<group>"; };
+		2359975429620BF800D0F043 /* OpManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpManagerViewController.swift; sourceTree = "<group>"; };
+		23B0E06929BF875E00E5E15F /* CashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashViewController.swift; sourceTree = "<group>"; };
+		23B0E06B29C0CB3800E5E15F /* CompanyBuyPrivateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyBuyPrivateViewController.swift; sourceTree = "<group>"; };
+		23B0E06D29C1DE6000E5E15F /* CompanyBuyOwnSharesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyBuyOwnSharesViewController.swift; sourceTree = "<group>"; };
+		23B0E06F29C21D2C00E5E15F /* CompanySellOwnSharesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanySellOwnSharesViewController.swift; sourceTree = "<group>"; };
+		23B0E07129C37FF800E5E15F /* AmountCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountCollectionViewCell.swift; sourceTree = "<group>"; };
+		23C74EFB2975D5C300BE33CE /* SharesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharesViewController.swift; sourceTree = "<group>"; };
+		23C74EFD2975D71900BE33CE /* ShareCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCollectionViewCell.swift; sourceTree = "<group>"; };
+		23D2290929647305008AE8FC /* CompanyOperateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyOperateViewController.swift; sourceTree = "<group>"; };
+		23D2290D296499D6008AE8FC /* ShareholderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareholderCollectionViewCell.swift; sourceTree = "<group>"; };
+		23D2290F2966C66E008AE8FC /* IncomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeViewController.swift; sourceTree = "<group>"; };
+		23D229112966C713008AE8FC /* PrivateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateCollectionViewCell.swift; sourceTree = "<group>"; };
+		23D2291329670850008AE8FC /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		23D2291529670AEE008AE8FC /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		23EF2F3429B8F56C0068DC71 /* CompanyBuyTrainsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyBuyTrainsViewController.swift; sourceTree = "<group>"; };
+		23EF2F3629B8F5740068DC71 /* CompanyBuyTokensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyBuyTokensViewController.swift; sourceTree = "<group>"; };
+		23EF2F3829B8F57C0068DC71 /* PlayerBuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerBuyViewController.swift; sourceTree = "<group>"; };
+		23EF2F3A29B8F5820068DC71 /* PlayerSellCustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSellCustomViewController.swift; sourceTree = "<group>"; };
+		23EF2F3C29B914BB0068DC71 /* PlayerSellPrivateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSellPrivateViewController.swift; sourceTree = "<group>"; };
+		EF0074162DA5300000358056 /* G1846MarketCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G1846MarketCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF01F28E2D861E2700FF5CD9 /* ZoomedInPrivateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomedInPrivateCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF04F08A2B6D4658002B32D1 /* RoundTypeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundTypeTableViewCell.swift; sourceTree = "<group>"; };
+		EF061DDA2B98B0AE0013E191 /* ActionMenuType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionMenuType.swift; sourceTree = "<group>"; };
+		EF09811D2CEA0C0700FF520C /* SetupRulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupRulesViewController.swift; sourceTree = "<group>"; };
+		EF0C01C32C668FD40094FEE2 /* IndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
+		EF0C01C52C669AC10094FEE2 /* ShareValueManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareValueManager.swift; sourceTree = "<group>"; };
+		EF0C01C72C66B5E20094FEE2 /* ShareValueMovementType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareValueMovementType.swift; sourceTree = "<group>"; };
+		EF0C01C92C68CCC90094FEE2 /* UICollectionViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtensions.swift; sourceTree = "<group>"; };
+		EF0C01CB2C68DC5A0094FEE2 /* Company18MEXMergeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company18MEXMergeViewController.swift; sourceTree = "<group>"; };
+		EF16B8482D94AE4600DE4E0F /* G1846SquarePrivateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G1846SquarePrivateCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF16B84A2D94AE5A00DE4E0F /* G1846RoundPrivateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G1846RoundPrivateCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF16B84C2D94AE7000DE4E0F /* G1846DiamondCompanyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G1846DiamondCompanyCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF17AC6A2D8A008200EEBEB4 /* RoundTypeClassicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundTypeClassicCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF17AC6C2D8A009700EEBEB4 /* RoundTypeClassicLastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundTypeClassicLastCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF17AC6E2D8A167500EEBEB4 /* RoundType1840CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundType1840CollectionViewCell.swift; sourceTree = "<group>"; };
+		EF17AC702D8A1E1800EEBEB4 /* RoundType1840LastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundType1840LastCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF1B2A232D722B2E0065C86E /* CashAmountCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashAmountCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF1C13A12CD17E160046CE56 /* LoansCompanyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoansCompanyCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF1C13A32CD180970046CE56 /* Company1856LoansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company1856LoansViewController.swift; sourceTree = "<group>"; };
+		EF1C1A5C2B5153990076A49A /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		EF1C1A5E2B5153B00076A49A /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		EF1C1A602B5153C60076A49A /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		EF1C1A632B5154020076A49A /* IndexType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexType.swift; sourceTree = "<group>"; };
+		EF1C1A652B5154100076A49A /* ShareStartingLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareStartingLocation.swift; sourceTree = "<group>"; };
+		EF1C1A672B51541D0076A49A /* BankIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankIndex.swift; sourceTree = "<group>"; };
+		EF1C1A692B5154310076A49A /* OperationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationType.swift; sourceTree = "<group>"; };
+		EF1C1A6B2B51543D0076A49A /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		EF1C1A6E2B51557B0076A49A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		EF1C1A702B5155930076A49A /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		EF1C1A722B5155BD0076A49A /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		EF2DAC0E2D9A9BFE0043A5C6 /* SetupSeatingOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupSeatingOrderViewController.swift; sourceTree = "<group>"; };
+		EF2E189B2D921C5300D508C0 /* CreditsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF2E604C2CDB7A6A00B5F2AE /* PlayerBuyCustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerBuyCustomViewController.swift; sourceTree = "<group>"; };
+		EF30E13F2D0207D000E1B0B2 /* 1840_rules.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 1840_rules.txt; sourceTree = "<group>"; };
+		EF3945222D2C590900D7BAC0 /* G1840CompanyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G1840CompanyCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF3B2BC12B5C040300C930FB /* RulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesViewController.swift; sourceTree = "<group>"; };
+		EF3B2BC32B5C052200C930FB /* 18Ch_rules.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 18Ch_rules.txt; sourceTree = "<group>"; };
+		EF3B2BC72B5C05A500C930FB /* 18CZ_rules.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 18CZ_rules.txt; sourceTree = "<group>"; };
+		EF3B2BC92B5C05B200C930FB /* 18MEX_rules.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 18MEX_rules.txt; sourceTree = "<group>"; };
+		EF3B2BCB2B5C05C600C930FB /* 1830_rules.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 1830_rules.txt; sourceTree = "<group>"; };
+		EF3B2BCD2B5C05D100C930FB /* 1846_rules.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 1846_rules.txt; sourceTree = "<group>"; };
+		EF3B2BCF2B5C05E100C930FB /* 1848_rules.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 1848_rules.txt; sourceTree = "<group>"; };
+		EF3B2BD12B5C05F200C930FB /* 1849_rules.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 1849_rules.txt; sourceTree = "<group>"; };
+		EF3B2BD32B5C060100C930FB /* 1871_rules.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 1871_rules.txt; sourceTree = "<group>"; };
+		EF3B2BD52B5C060F00C930FB /* 1882_rules.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 1882_rules.txt; sourceTree = "<group>"; };
+		EF3B2BD72B5C061A00C930FB /* 1889_rules.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 1889_rules.txt; sourceTree = "<group>"; };
+		EF424A652D47B77900AE39BC /* BackspaceDetectingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackspaceDetectingTextField.swift; sourceTree = "<group>"; };
+		EF424A662D47B77900AE39BC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EF424A672D47B77900AE39BC /* WSTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSTag.swift; sourceTree = "<group>"; };
+		EF424A682D47B77900AE39BC /* WSTagsField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSTagsField.swift; sourceTree = "<group>"; };
+		EF424A692D47B77900AE39BC /* WSTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSTagView.swift; sourceTree = "<group>"; };
+		EF424A732D48DEAF00AE39BC /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		EF46FA942D9D8E5D0096FA5F /* OpManagerProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpManagerProtocols.swift; sourceTree = "<group>"; };
+		EF46FA982D9D97E60096FA5F /* CompanyCloseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyCloseViewController.swift; sourceTree = "<group>"; };
+		EF46FA9A2D9D9F7E0096FA5F /* Company18MEXCloseMinorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company18MEXCloseMinorsViewController.swift; sourceTree = "<group>"; };
+		EF49CED92B1F36C8005C9C2A /* CompanyMakeAcquisitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyMakeAcquisitionViewController.swift; sourceTree = "<group>"; };
+		EF49CEDC2B1F8D38005C9C2A /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		EF49CEDE2B1F8D3E005C9C2A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		EF49CEE32B2C819F005C9C2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		EF4E9CF72D294AC2009F63B0 /* CustomAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertViewController.swift; sourceTree = "<group>"; };
+		EF4E9CFA2D296833009F63B0 /* CustomPickerViewAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerViewAlertViewController.swift; sourceTree = "<group>"; };
+		EF4E9CFC2D2997D9009F63B0 /* CustomMultiselectionPickerViewAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMultiselectionPickerViewAlertViewController.swift; sourceTree = "<group>"; };
+		EF5203B12B62BD4900BDAD3F /* UITextFieldExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtensions.swift; sourceTree = "<group>"; };
+		EF56735B2D8DE47E00BA4E87 /* G1840LineCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G1840LineCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF59722A2D0B516A000990EC /* Company1840OperateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company1840OperateViewController.swift; sourceTree = "<group>"; };
+		EF59722D2D0C9092000990EC /* Shareholder1840CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shareholder1840CollectionViewCell.swift; sourceTree = "<group>"; };
+		EF5972302D0F253F000990EC /* G1840SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G1840SetupViewController.swift; sourceTree = "<group>"; };
+		EF5A3C032D0370A200F81C43 /* Player1840LoansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player1840LoansViewController.swift; sourceTree = "<group>"; };
+		EF62DB472C4ACA500083EBF3 /* G1830SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G1830SetupViewController.swift; sourceTree = "<group>"; };
+		EF62DB492C4B0A630083EBF3 /* SetupPrivateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupPrivateCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF62DB4B2C4B0A6F0083EBF3 /* SetupCompanyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupCompanyCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF672AEB2CC6E73F00AF5F3E /* G1849SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G1849SetupViewController.swift; sourceTree = "<group>"; };
+		EF787D742D119FE200ED156E /* PlayerSellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSellViewController.swift; sourceTree = "<group>"; };
+		EF787D762D11A0F000ED156E /* PlayerSellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSellCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF787D792D16D5C100ED156E /* PrivateAuctionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateAuctionCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF795A202C6ACC7B00464BF6 /* Company1848CloseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company1848CloseViewController.swift; sourceTree = "<group>"; };
+		EF7B0C2C2D2DD2E900DF58D0 /* GameSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSelectionViewController.swift; sourceTree = "<group>"; };
+		EF7B0C2E2D2DD38100DF58D0 /* GameCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF7B0C302D314E3200DF58D0 /* Company1848LoansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company1848LoansViewController.swift; sourceTree = "<group>"; };
+		EF7CF0F02BE8EDE800979C51 /* CurrencyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyType.swift; sourceTree = "<group>"; };
+		EF7F86102D64AE9100888683 /* CustomReorderShareValuesAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomReorderShareValuesAlertViewController.swift; sourceTree = "<group>"; };
+		EF7F86122D64B1B000888683 /* ReorderCompanyShareIndexesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderCompanyShareIndexesCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF83EE442D87763600CDFE9E /* CustomTextViewAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextViewAlertViewController.swift; sourceTree = "<group>"; };
+		EF83EE462D8843D500CDFE9E /* G18ChSetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G18ChSetupViewController.swift; sourceTree = "<group>"; };
+		EF84443D2CF79AC2001AB5A9 /* TutorialPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialPageViewController.swift; sourceTree = "<group>"; };
+		EF84443F2CF79BBC001AB5A9 /* SingleScreenTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleScreenTutorialViewController.swift; sourceTree = "<group>"; };
+		EF8444422CF7A1AE001AB5A9 /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		EF8700C42DAD88A000F61E68 /* StrokeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeLabel.swift; sourceTree = "<group>"; };
+		EF88B1992BD4299A005C2CA3 /* CompanyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyType.swift; sourceTree = "<group>"; };
+		EF8B55352DA9926F004914C8 /* Company1846IssueSharesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company1846IssueSharesViewController.swift; sourceTree = "<group>"; };
+		EF8B55372DA99281004914C8 /* Company1846RedeemSharesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company1846RedeemSharesViewController.swift; sourceTree = "<group>"; };
+		EF8D0E3F2CC0597F00C7AC02 /* UIButtonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtensions.swift; sourceTree = "<group>"; };
+		EF93A4D12CBE677E009C6C1A /* Company1849BondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company1849BondViewController.swift; sourceTree = "<group>"; };
+		EF9B86BD2D19DB0B00CB6FE5 /* RoundTrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundTrackViewController.swift; sourceTree = "<group>"; };
+		EF9B86BF2D19DF8200CB6FE5 /* BumpCompanyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BumpCompanyCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF9B86C12D19DFD700CB6FE5 /* DropCompanyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropCompanyCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF9B86C72D19E95400CB6FE5 /* InsolventCompanySwitchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsolventCompanySwitchCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF9B86C92D1C1D4F00CB6FE5 /* PlayerTurnOrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTurnOrderType.swift; sourceTree = "<group>"; };
+		EF9B86CB2D1D950B00CB6FE5 /* PlayerTurnOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTurnOrderViewController.swift; sourceTree = "<group>"; };
+		EF9B86CD2D1DA0EC00CB6FE5 /* PlayerTurnOrderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTurnOrderCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF9C95C82BB6C53A00E786B4 /* PayoutRoundPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayoutRoundPolicy.swift; sourceTree = "<group>"; };
+		EF9C95CA2BB6E85600E786B4 /* BuySellRoundPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuySellRoundPolicy.swift; sourceTree = "<group>"; };
+		EFA06A792D50FC1D00EDE4C3 /* CustomActivityIndicatorAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomActivityIndicatorAlertViewController.swift; sourceTree = "<group>"; };
+		EFA305402D4929AB006CB0A3 /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
+		EFA5D1962C3AA72C008DE24C /* PrivatesAuctionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivatesAuctionViewController.swift; sourceTree = "<group>"; };
+		EFAC12622CE2496F000AA5BC /* 1856_rules.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 1856_rules.txt; sourceTree = "<group>"; };
+		EFACB2372D68D80300CF4566 /* EditPayoutWithholdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPayoutWithholdViewController.swift; sourceTree = "<group>"; };
+		EFAEEB3C2CDD324B00FA5BE0 /* GameMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMenuViewController.swift; sourceTree = "<group>"; };
+		EFAEFBE12DA84175008C4EC9 /* Company1846OperateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company1846OperateViewController.swift; sourceTree = "<group>"; };
+		EFBB57DB2C98C94100B0C652 /* CompanyFloatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyFloatViewController.swift; sourceTree = "<group>"; };
+		EFC50C812C5E7483001731FA /* OpeningPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningPreviewViewController.swift; sourceTree = "<group>"; };
+		EFC50C842C5E802F001731FA /* SalePreviewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalePreviewCollectionViewCell.swift; sourceTree = "<group>"; };
+		EFC50C882C5EE45C001731FA /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		EFCBE0832CD153D200088B43 /* CustomEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEnums.swift; sourceTree = "<group>"; };
+		EFCBE0852CD15C1400088B43 /* G1856CompanyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G1856CompanyCollectionViewCell.swift; sourceTree = "<group>"; };
+		EFD4A5362D94A6E30051C65F /* G1846SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G1846SetupViewController.swift; sourceTree = "<group>"; };
+		EFD8D0552BA6E83A00A449D3 /* Company18MEXMinorOperateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company18MEXMinorOperateViewController.swift; sourceTree = "<group>"; };
+		EFD8D0572BA703C900A449D3 /* Player18MEXTradePrivateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player18MEXTradePrivateViewController.swift; sourceTree = "<group>"; };
+		EFD8D0592BA7125400A449D3 /* Company18MEXCollectMailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company18MEXCollectMailViewController.swift; sourceTree = "<group>"; };
+		EFE9345D2D56B76C008FBDCF /* MarketCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketCollectionViewCell.swift; sourceTree = "<group>"; };
+		EFE9345F2D575F1D008FBDCF /* ReducedCompaniesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReducedCompaniesCollectionViewCell.swift; sourceTree = "<group>"; };
+		EFE934612D57801D008FBDCF /* ReducedPlayersCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReducedPlayersCollectionViewCell.swift; sourceTree = "<group>"; };
+		EFEFDAE72D9EC168001BE260 /* Company1846MiniatureOperateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company1846MiniatureOperateViewController.swift; sourceTree = "<group>"; };
+		EFF8F6EE2CD5648A0040A9FC /* G1856CGRFloatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G1856CGRFloatViewController.swift; sourceTree = "<group>"; };
+		EFF96DCE2D299D1000EDD7D2 /* MultiselectionPickerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiselectionPickerCollectionViewCell.swift; sourceTree = "<group>"; };
+		EFF96DD12D2A086500EDD7D2 /* InsolventCompanyButtonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsolventCompanyButtonCollectionViewCell.swift; sourceTree = "<group>"; };
+		EFF96DD32D2AD19700EDD7D2 /* Company1840StadtbahnOperateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company1840StadtbahnOperateViewController.swift; sourceTree = "<group>"; };
+		EFF96DD52D2AE24000EDD7D2 /* Company1840LinesRunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company1840LinesRunViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2303C72D295DDB2800901E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA21B1D2D403AE7006BE14E /* Messages.framework in Frameworks */,
+				EFA21B1A2D403AE4006BE14E /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2303C727295DDB2800901E21 = {
+			isa = PBXGroup;
+			children = (
+				2303C732295DDB2800901E21 /* CiuffCiuff */,
+				2303C731295DDB2800901E21 /* Products */,
+				EF49CEDB2B1F8D38005C9C2A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2303C731295DDB2800901E21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2303C730295DDB2800901E21 /* CiuffCiuff.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2303C732295DDB2800901E21 /* CiuffCiuff */ = {
+			isa = PBXGroup;
+			children = (
+				2303C733295DDB2800901E21 /* AppDelegate.swift */,
+				EF1C1A5B2B5153560076A49A /* Extensions */,
+				EF424A622D47B5A800AE39BC /* Custom classes */,
+				EF1C1A622B5153E00076A49A /* Enums */,
+				EF1C1A6D2B5155630076A49A /* Models */,
+				EF1C1A742B5156560076A49A /* Controllers */,
+				2303C739295DDB2800901E21 /* Main.storyboard */,
+				2303C73C295DDB2A00901E21 /* Assets.xcassets */,
+				2303C73E295DDB2A00901E21 /* LaunchScreen.storyboard */,
+				2303C741295DDB2A00901E21 /* Info.plist */,
+			);
+			path = CiuffCiuff;
+			sourceTree = "<group>";
+		};
+		EF1C13A52CD181570046CE56 /* 1856 */ = {
+			isa = PBXGroup;
+			children = (
+				EF1C13A32CD180970046CE56 /* Company1856LoansViewController.swift */,
+				EFF8F6EE2CD5648A0040A9FC /* G1856CGRFloatViewController.swift */,
+			);
+			path = 1856;
+			sourceTree = "<group>";
+		};
+		EF1C1A5B2B5153560076A49A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EF8D0E3F2CC0597F00C7AC02 /* UIButtonExtensions.swift */,
+				EF1C1A5C2B5153990076A49A /* UIColorExtensions.swift */,
+				EF1C1A5E2B5153B00076A49A /* UIImageExtensions.swift */,
+				EF1C1A602B5153C60076A49A /* StringExtensions.swift */,
+				EF5203B12B62BD4900BDAD3F /* UITextFieldExtensions.swift */,
+				EFC50C882C5EE45C001731FA /* PaddingLabel.swift */,
+				EF8700C42DAD88A000F61E68 /* StrokeLabel.swift */,
+				EF0C01C32C668FD40094FEE2 /* IndicatorView.swift */,
+				EF0C01C92C68CCC90094FEE2 /* UICollectionViewExtensions.swift */,
+				EFA305402D4929AB006CB0A3 /* CustomSegmentedControl.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EF1C1A622B5153E00076A49A /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				EF1C1A632B5154020076A49A /* IndexType.swift */,
+				EF1C1A652B5154100076A49A /* ShareStartingLocation.swift */,
+				EF1C1A672B51541D0076A49A /* BankIndex.swift */,
+				EF1C1A692B5154310076A49A /* OperationType.swift */,
+				EF061DDA2B98B0AE0013E191 /* ActionMenuType.swift */,
+				EF88B1992BD4299A005C2CA3 /* CompanyType.swift */,
+				EF1C1A6B2B51543D0076A49A /* Game.swift */,
+				EF9C95C82BB6C53A00E786B4 /* PayoutRoundPolicy.swift */,
+				EF9C95CA2BB6E85600E786B4 /* BuySellRoundPolicy.swift */,
+				EF7CF0F02BE8EDE800979C51 /* CurrencyType.swift */,
+				EF0C01C72C66B5E20094FEE2 /* ShareValueMovementType.swift */,
+				EFCBE0832CD153D200088B43 /* CustomEnums.swift */,
+				EF9B86C92D1C1D4F00CB6FE5 /* PlayerTurnOrderType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		EF1C1A6D2B5155630076A49A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF1C1A6E2B51557B0076A49A /* Color.swift */,
+				EF1C1A702B5155930076A49A /* GameState.swift */,
+				EF1C1A722B5155BD0076A49A /* Operation.swift */,
+				EF0C01C52C669AC10094FEE2 /* ShareValueManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EF1C1A742B5156560076A49A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF4E9CF92D294AE7009F63B0 /* Accessory VCs */,
+				EF1C1A7F2B515B620076A49A /* History */,
+				EF1C1A762B5157220076A49A /* Home */,
+				EF1C1A7D2B515B3B0076A49A /* Income */,
+				EFAEEB3E2CDD325F00FA5BE0 /* Menu */,
+				EFC50C832C5E748B001731FA /* OpeningPreview */,
+				EF1C1A782B51576B0076A49A /* OpManager */,
+				EFA5D1952C3AA6F0008DE24C /* PrivatesAuction */,
+				EF9B86C32D19E8A400CB6FE5 /* RoundTrack */,
+				EF3B2BC02B5C03E500C930FB /* Rules */,
+				EF1C1A832B515B900076A49A /* Shares */,
+				EF1C1A752B5156620076A49A /* Setup */,
+				EF8444412CF7A19B001AB5A9 /* Tutorial */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EF1C1A752B5156620076A49A /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				EF62DB462C4ACA2F0083EBF3 /* CustomSetups */,
+				2303C737295DDB2800901E21 /* SetupViewController.swift */,
+				EF2DAC0E2D9A9BFE0043A5C6 /* SetupSeatingOrderViewController.swift */,
+				EF09811D2CEA0C0700FF520C /* SetupRulesViewController.swift */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
+		EF1C1A762B5157220076A49A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EF1C1A772B5157370076A49A /* Cells */,
+				2303C747295E449900901E21 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EF1C1A772B5157370076A49A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EF5673592D8DE46000BA4E87 /* mainContent */,
+				EF5673582D8DE45000BA4E87 /* RoundType */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EF1C1A782B51576B0076A49A /* OpManager */ = {
+			isa = PBXGroup;
+			children = (
+				EF1C1A792B5157740076A49A /* Cells */,
+				2359975429620BF800D0F043 /* OpManagerViewController.swift */,
+				EF46FA942D9D8E5D0096FA5F /* OpManagerProtocols.swift */,
+				EF1C1A7A2B5157940076A49A /* IndividualOperations */,
+			);
+			path = OpManager;
+			sourceTree = "<group>";
+		};
+		EF1C1A792B5157740076A49A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				23B0E07129C37FF800E5E15F /* AmountCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EF1C1A7A2B5157940076A49A /* IndividualOperations */ = {
+			isa = PBXGroup;
+			children = (
+				EF1C1A7C2B515A670076A49A /* CompanyOperations */,
+				EF1C1A7B2B515A5D0076A49A /* PlayerOperations */,
+				EF1B2A232D722B2E0065C86E /* CashAmountCollectionViewCell.swift */,
+				23B0E06929BF875E00E5E15F /* CashViewController.swift */,
+			);
+			path = IndividualOperations;
+			sourceTree = "<group>";
+		};
+		EF1C1A7B2B515A5D0076A49A /* PlayerOperations */ = {
+			isa = PBXGroup;
+			children = (
+				EF787D782D11A11F00ED156E /* Cells */,
+				EF9B86CB2D1D950B00CB6FE5 /* PlayerTurnOrderViewController.swift */,
+				23EF2F3829B8F57C0068DC71 /* PlayerBuyViewController.swift */,
+				EF2E604C2CDB7A6A00B5F2AE /* PlayerBuyCustomViewController.swift */,
+				EF787D742D119FE200ED156E /* PlayerSellViewController.swift */,
+				23EF2F3A29B8F5820068DC71 /* PlayerSellCustomViewController.swift */,
+				23EF2F3C29B914BB0068DC71 /* PlayerSellPrivateViewController.swift */,
+				EF5A3C052D0370A600F81C43 /* 1840 */,
+				EFDC7D542BBB3B340080CBD2 /* 18MEX */,
+			);
+			path = PlayerOperations;
+			sourceTree = "<group>";
+		};
+		EF1C1A7C2B515A670076A49A /* CompanyOperations */ = {
+			isa = PBXGroup;
+			children = (
+				EF1C1A862B515BB90076A49A /* Cells */,
+				EFBB57DB2C98C94100B0C652 /* CompanyFloatViewController.swift */,
+				23D2290929647305008AE8FC /* CompanyOperateViewController.swift */,
+				23EF2F3429B8F56C0068DC71 /* CompanyBuyTrainsViewController.swift */,
+				23EF2F3629B8F5740068DC71 /* CompanyBuyTokensViewController.swift */,
+				23B0E06B29C0CB3800E5E15F /* CompanyBuyPrivateViewController.swift */,
+				23B0E06D29C1DE6000E5E15F /* CompanyBuyOwnSharesViewController.swift */,
+				23B0E06F29C21D2C00E5E15F /* CompanySellOwnSharesViewController.swift */,
+				EF49CED92B1F36C8005C9C2A /* CompanyMakeAcquisitionViewController.swift */,
+				EF46FA982D9D97E60096FA5F /* CompanyCloseViewController.swift */,
+				EF59722C2D0B516F000990EC /* 1840 */,
+				EFAEFBE32DA841B7008C4EC9 /* 1846 */,
+				EF795A222C6ACD9200464BF6 /* 1848 */,
+				EF93A4D32CBE6786009C6C1A /* 1849 */,
+				EF1C13A52CD181570046CE56 /* 1856 */,
+				EFDC7D532BBB3B260080CBD2 /* 18MEX */,
+			);
+			path = CompanyOperations;
+			sourceTree = "<group>";
+		};
+		EF1C1A7D2B515B3B0076A49A /* Income */ = {
+			isa = PBXGroup;
+			children = (
+				EF1C1A7E2B515B4E0076A49A /* Cells */,
+				23D2290F2966C66E008AE8FC /* IncomeViewController.swift */,
+			);
+			path = Income;
+			sourceTree = "<group>";
+		};
+		EF1C1A7E2B515B4E0076A49A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				23D229112966C713008AE8FC /* PrivateCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EF1C1A7F2B515B620076A49A /* History */ = {
+			isa = PBXGroup;
+			children = (
+				EF1C1A802B515B6B0076A49A /* Cells */,
+				23D2291329670850008AE8FC /* HistoryViewController.swift */,
+				EFACB2372D68D80300CF4566 /* EditPayoutWithholdViewController.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		EF1C1A802B515B6B0076A49A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				23D2291529670AEE008AE8FC /* HistoryTableViewCell.swift */,
+				EF04F08A2B6D4658002B32D1 /* RoundTypeTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EF1C1A832B515B900076A49A /* Shares */ = {
+			isa = PBXGroup;
+			children = (
+				EF1C1A842B515B990076A49A /* Cells */,
+				23C74EFB2975D5C300BE33CE /* SharesViewController.swift */,
+			);
+			path = Shares;
+			sourceTree = "<group>";
+		};
+		EF1C1A842B515B990076A49A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				23C74EFD2975D71900BE33CE /* ShareCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EF1C1A862B515BB90076A49A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				23D2290D296499D6008AE8FC /* ShareholderCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EF2E189D2D921C6100D508C0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EF2E189B2D921C5300D508C0 /* CreditsCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EF3B2BC02B5C03E500C930FB /* Rules */ = {
+			isa = PBXGroup;
+			children = (
+				EF3B2BC12B5C040300C930FB /* RulesViewController.swift */,
+				EF3B2BCB2B5C05C600C930FB /* 1830_rules.txt */,
+				EF30E13F2D0207D000E1B0B2 /* 1840_rules.txt */,
+				EF3B2BCD2B5C05D100C930FB /* 1846_rules.txt */,
+				EF3B2BCF2B5C05E100C930FB /* 1848_rules.txt */,
+				EF3B2BD12B5C05F200C930FB /* 1849_rules.txt */,
+				EFAC12622CE2496F000AA5BC /* 1856_rules.txt */,
+				EF3B2BD32B5C060100C930FB /* 1871_rules.txt */,
+				EF3B2BD52B5C060F00C930FB /* 1882_rules.txt */,
+				EF3B2BD72B5C061A00C930FB /* 1889_rules.txt */,
+				EF3B2BC32B5C052200C930FB /* 18Ch_rules.txt */,
+				EF3B2BC72B5C05A500C930FB /* 18CZ_rules.txt */,
+				EF3B2BC92B5C05B200C930FB /* 18MEX_rules.txt */,
+			);
+			path = Rules;
+			sourceTree = "<group>";
+		};
+		EF424A5C2D47B5A400AE39BC /* WSTagsTextField */ = {
+			isa = PBXGroup;
+			children = (
+				EF424A652D47B77900AE39BC /* BackspaceDetectingTextField.swift */,
+				EF424A662D47B77900AE39BC /* Constants.swift */,
+				EF424A672D47B77900AE39BC /* WSTag.swift */,
+				EF424A682D47B77900AE39BC /* WSTagsField.swift */,
+				EF424A692D47B77900AE39BC /* WSTagView.swift */,
+			);
+			path = WSTagsTextField;
+			sourceTree = "<group>";
+		};
+		EF424A622D47B5A800AE39BC /* Custom classes */ = {
+			isa = PBXGroup;
+			children = (
+				EF424A712D48DE3C00AE39BC /* SheetView */,
+				EF424A5C2D47B5A400AE39BC /* WSTagsTextField */,
+			);
+			path = "Custom classes";
+			sourceTree = "<group>";
+		};
+		EF424A712D48DE3C00AE39BC /* SheetView */ = {
+			isa = PBXGroup;
+			children = (
+				EF424A732D48DEAF00AE39BC /* SheetView.swift */,
+			);
+			path = SheetView;
+			sourceTree = "<group>";
+		};
+		EF49CEDB2B1F8D38005C9C2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF49CEDE2B1F8D3E005C9C2A /* MessageUI.framework */,
+				EF49CEDC2B1F8D38005C9C2A /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF4E9CF92D294AE7009F63B0 /* Accessory VCs */ = {
+			isa = PBXGroup;
+			children = (
+				EFF96DD02D299D1E00EDD7D2 /* Cells */,
+				EFA06A792D50FC1D00EDE4C3 /* CustomActivityIndicatorAlertViewController.swift */,
+				EF4E9CF72D294AC2009F63B0 /* CustomAlertViewController.swift */,
+				EF83EE442D87763600CDFE9E /* CustomTextViewAlertViewController.swift */,
+				EF4E9CFA2D296833009F63B0 /* CustomPickerViewAlertViewController.swift */,
+				EF4E9CFC2D2997D9009F63B0 /* CustomMultiselectionPickerViewAlertViewController.swift */,
+				EF7F86102D64AE9100888683 /* CustomReorderShareValuesAlertViewController.swift */,
+				EF7B0C2C2D2DD2E900DF58D0 /* GameSelectionViewController.swift */,
+			);
+			path = "Accessory VCs";
+			sourceTree = "<group>";
+		};
+		EF5673582D8DE45000BA4E87 /* RoundType */ = {
+			isa = PBXGroup;
+			children = (
+				EF17AC6A2D8A008200EEBEB4 /* RoundTypeClassicCollectionViewCell.swift */,
+				EF17AC6C2D8A009700EEBEB4 /* RoundTypeClassicLastCollectionViewCell.swift */,
+				EF17AC6E2D8A167500EEBEB4 /* RoundType1840CollectionViewCell.swift */,
+				EF17AC702D8A1E1800EEBEB4 /* RoundType1840LastCollectionViewCell.swift */,
+			);
+			path = RoundType;
+			sourceTree = "<group>";
+		};
+		EF5673592D8DE46000BA4E87 /* mainContent */ = {
+			isa = PBXGroup;
+			children = (
+				EF56735A2D8DE47000BA4E87 /* CompanyCells */,
+				2303C74B295E47A500901E21 /* PlayerCollectionViewCell.swift */,
+				EFE9345D2D56B76C008FBDCF /* MarketCollectionViewCell.swift */,
+				EF0074162DA5300000358056 /* G1846MarketCollectionViewCell.swift */,
+				EFE9345F2D575F1D008FBDCF /* ReducedCompaniesCollectionViewCell.swift */,
+				EFE934612D57801D008FBDCF /* ReducedPlayersCollectionViewCell.swift */,
+				EF56735B2D8DE47E00BA4E87 /* G1840LineCollectionViewCell.swift */,
+			);
+			path = mainContent;
+			sourceTree = "<group>";
+		};
+		EF56735A2D8DE47000BA4E87 /* CompanyCells */ = {
+			isa = PBXGroup;
+			children = (
+				2303C749295E479800901E21 /* CompanyCollectionViewCell.swift */,
+				EF3945222D2C590900D7BAC0 /* G1840CompanyCollectionViewCell.swift */,
+				EFCBE0852CD15C1400088B43 /* G1856CompanyCollectionViewCell.swift */,
+				EF1C13A12CD17E160046CE56 /* LoansCompanyCollectionViewCell.swift */,
+			);
+			path = CompanyCells;
+			sourceTree = "<group>";
+		};
+		EF59722C2D0B516F000990EC /* 1840 */ = {
+			isa = PBXGroup;
+			children = (
+				EF59722F2D0C90B0000990EC /* Cells */,
+				EF59722A2D0B516A000990EC /* Company1840OperateViewController.swift */,
+				EFF96DD52D2AE24000EDD7D2 /* Company1840LinesRunViewController.swift */,
+				EFF96DD32D2AD19700EDD7D2 /* Company1840StadtbahnOperateViewController.swift */,
+			);
+			path = 1840;
+			sourceTree = "<group>";
+		};
+		EF59722F2D0C90B0000990EC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EF59722D2D0C9092000990EC /* Shareholder1840CollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EF5A3C052D0370A600F81C43 /* 1840 */ = {
+			isa = PBXGroup;
+			children = (
+				EF5A3C032D0370A200F81C43 /* Player1840LoansViewController.swift */,
+			);
+			path = 1840;
+			sourceTree = "<group>";
+		};
+		EF62DB462C4ACA2F0083EBF3 /* CustomSetups */ = {
+			isa = PBXGroup;
+			children = (
+				EF62DB472C4ACA500083EBF3 /* G1830SetupViewController.swift */,
+				EF5972302D0F253F000990EC /* G1840SetupViewController.swift */,
+				EFD4A5362D94A6E30051C65F /* G1846SetupViewController.swift */,
+				EF672AEB2CC6E73F00AF5F3E /* G1849SetupViewController.swift */,
+				EF83EE462D8843D500CDFE9E /* G18ChSetupViewController.swift */,
+				EF62DB4D2C4B0ADB0083EBF3 /* Cells */,
+			);
+			path = CustomSetups;
+			sourceTree = "<group>";
+		};
+		EF62DB4D2C4B0ADB0083EBF3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EF62DB492C4B0A630083EBF3 /* SetupPrivateCollectionViewCell.swift */,
+				EF62DB4B2C4B0A6F0083EBF3 /* SetupCompanyCollectionViewCell.swift */,
+				EF16B8482D94AE4600DE4E0F /* G1846SquarePrivateCollectionViewCell.swift */,
+				EF16B84A2D94AE5A00DE4E0F /* G1846RoundPrivateCollectionViewCell.swift */,
+				EF16B84C2D94AE7000DE4E0F /* G1846DiamondCompanyCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EF787D782D11A11F00ED156E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EF787D762D11A0F000ED156E /* PlayerSellCollectionViewCell.swift */,
+				EF9B86CD2D1DA0EC00CB6FE5 /* PlayerTurnOrderCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EF787D7B2D16E46100ED156E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EF787D792D16D5C100ED156E /* PrivateAuctionCollectionViewCell.swift */,
+				EF01F28E2D861E2700FF5CD9 /* ZoomedInPrivateCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EF795A222C6ACD9200464BF6 /* 1848 */ = {
+			isa = PBXGroup;
+			children = (
+				EF795A202C6ACC7B00464BF6 /* Company1848CloseViewController.swift */,
+				EF7B0C302D314E3200DF58D0 /* Company1848LoansViewController.swift */,
+			);
+			path = 1848;
+			sourceTree = "<group>";
+		};
+		EF8444412CF7A19B001AB5A9 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				EF84443D2CF79AC2001AB5A9 /* TutorialPageViewController.swift */,
+				EF84443F2CF79BBC001AB5A9 /* SingleScreenTutorialViewController.swift */,
+				EF8444422CF7A1AE001AB5A9 /* TutorialViewController.swift */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		EF93A4D32CBE6786009C6C1A /* 1849 */ = {
+			isa = PBXGroup;
+			children = (
+				EF93A4D12CBE677E009C6C1A /* Company1849BondViewController.swift */,
+			);
+			path = 1849;
+			sourceTree = "<group>";
+		};
+		EF9B86C32D19E8A400CB6FE5 /* RoundTrack */ = {
+			isa = PBXGroup;
+			children = (
+				EF9B86C42D19E8B900CB6FE5 /* Cells */,
+				EF9B86BD2D19DB0B00CB6FE5 /* RoundTrackViewController.swift */,
+			);
+			path = RoundTrack;
+			sourceTree = "<group>";
+		};
+		EF9B86C42D19E8B900CB6FE5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EF9B86BF2D19DF8200CB6FE5 /* BumpCompanyCollectionViewCell.swift */,
+				EF9B86C12D19DFD700CB6FE5 /* DropCompanyCollectionViewCell.swift */,
+				EF9B86C72D19E95400CB6FE5 /* InsolventCompanySwitchCollectionViewCell.swift */,
+				EFF96DD12D2A086500EDD7D2 /* InsolventCompanyButtonCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EFA5D1952C3AA6F0008DE24C /* PrivatesAuction */ = {
+			isa = PBXGroup;
+			children = (
+				EF787D7B2D16E46100ED156E /* Cells */,
+				EFA5D1962C3AA72C008DE24C /* PrivatesAuctionViewController.swift */,
+			);
+			path = PrivatesAuction;
+			sourceTree = "<group>";
+		};
+		EFAEEB3E2CDD325F00FA5BE0 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				EF2E189D2D921C6100D508C0 /* Cells */,
+				EFAEEB3C2CDD324B00FA5BE0 /* GameMenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		EFAEFBE32DA841B7008C4EC9 /* 1846 */ = {
+			isa = PBXGroup;
+			children = (
+				EFAEFBE12DA84175008C4EC9 /* Company1846OperateViewController.swift */,
+				EFEFDAE72D9EC168001BE260 /* Company1846MiniatureOperateViewController.swift */,
+				EF8B55352DA9926F004914C8 /* Company1846IssueSharesViewController.swift */,
+				EF8B55372DA99281004914C8 /* Company1846RedeemSharesViewController.swift */,
+			);
+			path = 1846;
+			sourceTree = "<group>";
+		};
+		EFC50C832C5E748B001731FA /* OpeningPreview */ = {
+			isa = PBXGroup;
+			children = (
+				EFC50C812C5E7483001731FA /* OpeningPreviewViewController.swift */,
+				EFC50C872C5E8057001731FA /* Cells */,
+			);
+			path = OpeningPreview;
+			sourceTree = "<group>";
+		};
+		EFC50C872C5E8057001731FA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EFC50C842C5E802F001731FA /* SalePreviewCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EFDC7D532BBB3B260080CBD2 /* 18MEX */ = {
+			isa = PBXGroup;
+			children = (
+				EFD8D0552BA6E83A00A449D3 /* Company18MEXMinorOperateViewController.swift */,
+				EF46FA9A2D9D9F7E0096FA5F /* Company18MEXCloseMinorsViewController.swift */,
+				EFD8D0592BA7125400A449D3 /* Company18MEXCollectMailViewController.swift */,
+				EF0C01CB2C68DC5A0094FEE2 /* Company18MEXMergeViewController.swift */,
+			);
+			path = 18MEX;
+			sourceTree = "<group>";
+		};
+		EFDC7D542BBB3B340080CBD2 /* 18MEX */ = {
+			isa = PBXGroup;
+			children = (
+				EFD8D0572BA703C900A449D3 /* Player18MEXTradePrivateViewController.swift */,
+			);
+			path = 18MEX;
+			sourceTree = "<group>";
+		};
+		EFF96DD02D299D1E00EDD7D2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EFF96DCE2D299D1000EDD7D2 /* MultiselectionPickerCollectionViewCell.swift */,
+				EF7F86122D64B1B000888683 /* ReorderCompanyShareIndexesCollectionViewCell.swift */,
+				EF7B0C2E2D2DD38100DF58D0 /* GameCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2303C72F295DDB2800901E21 /* CiuffCiuff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2303C744295DDB2A00901E21 /* Build configuration list for PBXNativeTarget "CiuffCiuff" */;
+			buildPhases = (
+				2303C72C295DDB2800901E21 /* Sources */,
+				2303C72D295DDB2800901E21 /* Frameworks */,
+				2303C72E295DDB2800901E21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CiuffCiuff;
+			productName = CiuffCiuff;
+			productReference = 2303C730295DDB2800901E21 /* CiuffCiuff.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2303C728295DDB2800901E21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2303C72F295DDB2800901E21 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 2303C72B295DDB2800901E21 /* Build configuration list for PBXProject "CiuffCiuff" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2303C727295DDB2800901E21;
+			productRefGroup = 2303C731295DDB2800901E21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2303C72F295DDB2800901E21 /* CiuffCiuff */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2303C72E295DDB2800901E21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3B2BD82B5C061A00C930FB /* 1889_rules.txt in Resources */,
+				EFAC12632CE2496F000AA5BC /* 1856_rules.txt in Resources */,
+				EF3B2BCC2B5C05C600C930FB /* 1830_rules.txt in Resources */,
+				EF30E1402D0207D000E1B0B2 /* 1840_rules.txt in Resources */,
+				EF3B2BC42B5C052200C930FB /* 18Ch_rules.txt in Resources */,
+				2303C740295DDB2A00901E21 /* LaunchScreen.storyboard in Resources */,
+				EF3B2BCE2B5C05D100C930FB /* 1846_rules.txt in Resources */,
+				EF3B2BD22B5C05F200C930FB /* 1849_rules.txt in Resources */,
+				EF3B2BCA2B5C05B200C930FB /* 18MEX_rules.txt in Resources */,
+				EF3B2BD02B5C05E100C930FB /* 1848_rules.txt in Resources */,
+				EF3B2BC82B5C05A500C930FB /* 18CZ_rules.txt in Resources */,
+				2303C73D295DDB2A00901E21 /* Assets.xcassets in Resources */,
+				EF3B2BD42B5C060100C930FB /* 1871_rules.txt in Resources */,
+				2303C73B295DDB2800901E21 /* Main.storyboard in Resources */,
+				EF3B2BD62B5C060F00C930FB /* 1882_rules.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2303C72C295DDB2800901E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE934622D57802D008FBDCF /* ReducedPlayersCollectionViewCell.swift in Sources */,
+				23B0E07229C37FF800E5E15F /* AmountCollectionViewCell.swift in Sources */,
+				23D229102966C66E008AE8FC /* IncomeViewController.swift in Sources */,
+				EF2DAC0F2D9A9C090043A5C6 /* SetupSeatingOrderViewController.swift in Sources */,
+				EF7B0C2F2D2DD38100DF58D0 /* GameCollectionViewCell.swift in Sources */,
+				EF84443E2CF79AC2001AB5A9 /* TutorialPageViewController.swift in Sources */,
+				23B0E06A29BF875E00E5E15F /* CashViewController.swift in Sources */,
+				EF09811E2CEA0C0700FF520C /* SetupRulesViewController.swift in Sources */,
+				EFC50C892C5EE45C001731FA /* PaddingLabel.swift in Sources */,
+				EF1C1A732B5155BD0076A49A /* Operation.swift in Sources */,
+				EFD8D0582BA703C900A449D3 /* Player18MEXTradePrivateViewController.swift in Sources */,
+				EF17AC712D8A1E2300EEBEB4 /* RoundType1840LastCollectionViewCell.swift in Sources */,
+				EF9B86C02D19DF8200CB6FE5 /* BumpCompanyCollectionViewCell.swift in Sources */,
+				EF8B55362DA9927E004914C8 /* Company1846IssueSharesViewController.swift in Sources */,
+				EF1C13A22CD17E160046CE56 /* LoansCompanyCollectionViewCell.swift in Sources */,
+				23D2291629670AEE008AE8FC /* HistoryTableViewCell.swift in Sources */,
+				23EF2F3729B8F5740068DC71 /* CompanyBuyTokensViewController.swift in Sources */,
+				23EF2F3929B8F57C0068DC71 /* PlayerBuyViewController.swift in Sources */,
+				EF787D772D11A0F000ED156E /* PlayerSellCollectionViewCell.swift in Sources */,
+				2359975529620BF800D0F043 /* OpManagerViewController.swift in Sources */,
+				EF061DDB2B98B0AE0013E191 /* ActionMenuType.swift in Sources */,
+				23D229122966C713008AE8FC /* PrivateCollectionViewCell.swift in Sources */,
+				EF46FA992D9D97EB0096FA5F /* CompanyCloseViewController.swift in Sources */,
+				EF424A6A2D47B77900AE39BC /* WSTagView.swift in Sources */,
+				EF424A6B2D47B77900AE39BC /* WSTag.swift in Sources */,
+				EF424A6C2D47B77900AE39BC /* WSTagsField.swift in Sources */,
+				EF424A6D2D47B77900AE39BC /* BackspaceDetectingTextField.swift in Sources */,
+				EF424A6E2D47B77900AE39BC /* Constants.swift in Sources */,
+				EF7F86112D64AEC500888683 /* CustomReorderShareValuesAlertViewController.swift in Sources */,
+				EF93A4D22CBE677E009C6C1A /* Company1849BondViewController.swift in Sources */,
+				EFA06A7A2D50FC2000EDE4C3 /* CustomActivityIndicatorAlertViewController.swift in Sources */,
+				23D2291429670850008AE8FC /* HistoryViewController.swift in Sources */,
+				EF1C1A662B5154100076A49A /* ShareStartingLocation.swift in Sources */,
+				EF7CF0F12BE8EDE800979C51 /* CurrencyType.swift in Sources */,
+				EFC50C822C5E7483001731FA /* OpeningPreviewViewController.swift in Sources */,
+				EF4E9CFB2D296833009F63B0 /* CustomPickerViewAlertViewController.swift in Sources */,
+				EF5972312D0F253F000990EC /* G1840SetupViewController.swift in Sources */,
+				EF46FA952D9D8E620096FA5F /* OpManagerProtocols.swift in Sources */,
+				EF17AC6D2D8A00A200EEBEB4 /* RoundTypeClassicLastCollectionViewCell.swift in Sources */,
+				EF59722E2D0C9092000990EC /* Shareholder1840CollectionViewCell.swift in Sources */,
+				EFD8D05A2BA7125400A449D3 /* Company18MEXCollectMailViewController.swift in Sources */,
+				23C74EFE2975D71900BE33CE /* ShareCollectionViewCell.swift in Sources */,
+				2303C738295DDB2800901E21 /* SetupViewController.swift in Sources */,
+				EF1C1A6F2B51557B0076A49A /* Color.swift in Sources */,
+				EF8700C52DAD88A900F61E68 /* StrokeLabel.swift in Sources */,
+				2303C734295DDB2800901E21 /* AppDelegate.swift in Sources */,
+				EF0C01CC2C68DC5A0094FEE2 /* Company18MEXMergeViewController.swift in Sources */,
+				EF16B8492D94AE5700DE4E0F /* G1846SquarePrivateCollectionViewCell.swift in Sources */,
+				EF7F86132D64B1B300888683 /* ReorderCompanyShareIndexesCollectionViewCell.swift in Sources */,
+				EF1C1A682B51541D0076A49A /* BankIndex.swift in Sources */,
+				EF01F28F2D861E2700FF5CD9 /* ZoomedInPrivateCollectionViewCell.swift in Sources */,
+				EF3945232D2C590900D7BAC0 /* G1840CompanyCollectionViewCell.swift in Sources */,
+				EF9B86CA2D1C1D4F00CB6FE5 /* PlayerTurnOrderType.swift in Sources */,
+				EF8444432CF7A1AE001AB5A9 /* TutorialViewController.swift in Sources */,
+				EFAEEB3D2CDD324B00FA5BE0 /* GameMenuViewController.swift in Sources */,
+				EF56735C2D8DE48B00BA4E87 /* G1840LineCollectionViewCell.swift in Sources */,
+				EF17AC6B2D8A009400EEBEB4 /* RoundTypeClassicCollectionViewCell.swift in Sources */,
+				EF88B19A2BD4299A005C2CA3 /* CompanyType.swift in Sources */,
+				2303C74A295E479800901E21 /* CompanyCollectionViewCell.swift in Sources */,
+				23C74EFC2975D5C300BE33CE /* SharesViewController.swift in Sources */,
+				EF0C01C42C668FD40094FEE2 /* IndicatorView.swift in Sources */,
+				EFD8D0562BA6E83A00A449D3 /* Company18MEXMinorOperateViewController.swift in Sources */,
+				EF62DB4A2C4B0A630083EBF3 /* SetupPrivateCollectionViewCell.swift in Sources */,
+				2303C748295E449900901E21 /* HomeViewController.swift in Sources */,
+				EF1B2A242D722B3D0065C86E /* CashAmountCollectionViewCell.swift in Sources */,
+				EFCBE0842CD153E900088B43 /* CustomEnums.swift in Sources */,
+				EF9B86BE2D19DB0B00CB6FE5 /* RoundTrackViewController.swift in Sources */,
+				EF8D0E402CC0598D00C7AC02 /* UIButtonExtensions.swift in Sources */,
+				EFF8F6EF2CD5648A0040A9FC /* G1856CGRFloatViewController.swift in Sources */,
+				EF787D7A2D16D5C100ED156E /* PrivateAuctionCollectionViewCell.swift in Sources */,
+				EF1C13A42CD180970046CE56 /* Company1856LoansViewController.swift in Sources */,
+				EF7B0C2D2D2DD2E900DF58D0 /* GameSelectionViewController.swift in Sources */,
+				EFF96DCF2D299D1000EDD7D2 /* MultiselectionPickerCollectionViewCell.swift in Sources */,
+				EFA305412D4929B8006CB0A3 /* CustomSegmentedControl.swift in Sources */,
+				2303C74C295E47A500901E21 /* PlayerCollectionViewCell.swift in Sources */,
+				EFF96DD42D2AD19700EDD7D2 /* Company1840StadtbahnOperateViewController.swift in Sources */,
+				23EF2F3B29B8F5820068DC71 /* PlayerSellCustomViewController.swift in Sources */,
+				EF4E9CFD2D2997D9009F63B0 /* CustomMultiselectionPickerViewAlertViewController.swift in Sources */,
+				EF49CEDA2B1F36C8005C9C2A /* CompanyMakeAcquisitionViewController.swift in Sources */,
+				EF04F08B2B6D4658002B32D1 /* RoundTypeTableViewCell.swift in Sources */,
+				EFCBE0862CD15C1400088B43 /* G1856CompanyCollectionViewCell.swift in Sources */,
+				23EF2F3D29B914BB0068DC71 /* PlayerSellPrivateViewController.swift in Sources */,
+				EF9C95C92BB6C53A00E786B4 /* PayoutRoundPolicy.swift in Sources */,
+				23EF2F3529B8F56C0068DC71 /* CompanyBuyTrainsViewController.swift in Sources */,
+				EF8444402CF79BBC001AB5A9 /* SingleScreenTutorialViewController.swift in Sources */,
+				EF83EE472D8843E200CDFE9E /* G18ChSetupViewController.swift in Sources */,
+				EF0C01C62C669AC10094FEE2 /* ShareValueManager.swift in Sources */,
+				EF62DB482C4ACA500083EBF3 /* G1830SetupViewController.swift in Sources */,
+				EF62DB4C2C4B0A6F0083EBF3 /* SetupCompanyCollectionViewCell.swift in Sources */,
+				EF1C1A882B51609F0076A49A /* UIImageExtensions.swift in Sources */,
+				EF1C1A642B5154020076A49A /* IndexType.swift in Sources */,
+				EFD4A5372D94A6EA0051C65F /* G1846SetupViewController.swift in Sources */,
+				EF1C1A6A2B5154310076A49A /* OperationType.swift in Sources */,
+				EF9B86CE2D1DA0EC00CB6FE5 /* PlayerTurnOrderCollectionViewCell.swift in Sources */,
+				EF59722B2D0B516A000990EC /* Company1840OperateViewController.swift in Sources */,
+				EF16B84D2D94AE8100DE4E0F /* G1846DiamondCompanyCollectionViewCell.swift in Sources */,
+				EFF96DD22D2A086500EDD7D2 /* InsolventCompanyButtonCollectionViewCell.swift in Sources */,
+				EF8B55382DA99289004914C8 /* Company1846RedeemSharesViewController.swift in Sources */,
+				EF424A742D48DEB200AE39BC /* SheetView.swift in Sources */,
+				EF16B84B2D94AE6700DE4E0F /* G1846RoundPrivateCollectionViewCell.swift in Sources */,
+				23B0E07029C21D2C00E5E15F /* CompanySellOwnSharesViewController.swift in Sources */,
+				EF7B0C312D314E3200DF58D0 /* Company1848LoansViewController.swift in Sources */,
+				23D2290E296499D6008AE8FC /* ShareholderCollectionViewCell.swift in Sources */,
+				EF4E9CF82D294AC3009F63B0 /* CustomAlertViewController.swift in Sources */,
+				EFEFDAE82D9EC17E001BE260 /* Company1846MiniatureOperateViewController.swift in Sources */,
+				EF795A212C6ACC7B00464BF6 /* Company1848CloseViewController.swift in Sources */,
+				EF83EE452D87764000CDFE9E /* CustomTextViewAlertViewController.swift in Sources */,
+				EF9C95CB2BB6E85600E786B4 /* BuySellRoundPolicy.swift in Sources */,
+				EF0074172DA5300E00358056 /* G1846MarketCollectionViewCell.swift in Sources */,
+				EF5A3C042D0370A200F81C43 /* Player1840LoansViewController.swift in Sources */,
+				EFBB57DC2C98C94100B0C652 /* CompanyFloatViewController.swift in Sources */,
+				EF2E604D2CDB7A6A00B5F2AE /* PlayerBuyCustomViewController.swift in Sources */,
+				EF787D752D119FE200ED156E /* PlayerSellViewController.swift in Sources */,
+				EF1C1A892B5160A30076A49A /* StringExtensions.swift in Sources */,
+				EF5203B22B62BD4900BDAD3F /* UITextFieldExtensions.swift in Sources */,
+				EFE9345E2D56B775008FBDCF /* MarketCollectionViewCell.swift in Sources */,
+				EF3B2BC22B5C040300C930FB /* RulesViewController.swift in Sources */,
+				EF1C1A6C2B51543D0076A49A /* Game.swift in Sources */,
+				EF17AC6F2D8A168300EEBEB4 /* RoundType1840CollectionViewCell.swift in Sources */,
+				EFACB2382D68D80400CF4566 /* EditPayoutWithholdViewController.swift in Sources */,
+				EF0C01C82C66B5E20094FEE2 /* ShareValueMovementType.swift in Sources */,
+				23B0E06C29C0CB3800E5E15F /* CompanyBuyPrivateViewController.swift in Sources */,
+				23D2290A29647305008AE8FC /* CompanyOperateViewController.swift in Sources */,
+				EFC50C852C5E802F001731FA /* SalePreviewCollectionViewCell.swift in Sources */,
+				EFAEFBE22DA84186008C4EC9 /* Company1846OperateViewController.swift in Sources */,
+				EF1C1A712B5155930076A49A /* GameState.swift in Sources */,
+				EF9B86C22D19DFD700CB6FE5 /* DropCompanyCollectionViewCell.swift in Sources */,
+				EF46FA9B2D9D9F870096FA5F /* Company18MEXCloseMinorsViewController.swift in Sources */,
+				23B0E06E29C1DE6000E5E15F /* CompanyBuyOwnSharesViewController.swift in Sources */,
+				EFF96DD62D2AE24000EDD7D2 /* Company1840LinesRunViewController.swift in Sources */,
+				EFE934602D575F20008FBDCF /* ReducedCompaniesCollectionViewCell.swift in Sources */,
+				EF9B86CC2D1D950B00CB6FE5 /* PlayerTurnOrderViewController.swift in Sources */,
+				EF9B86C82D19E95400CB6FE5 /* InsolventCompanySwitchCollectionViewCell.swift in Sources */,
+				EF2E189C2D921C5D00D508C0 /* CreditsCollectionViewCell.swift in Sources */,
+				EF0C01CA2C68CCC90094FEE2 /* UICollectionViewExtensions.swift in Sources */,
+				EF672AEC2CC6E73F00AF5F3E /* G1849SetupViewController.swift in Sources */,
+				EF1C1A872B51609B0076A49A /* UIColorExtensions.swift in Sources */,
+				EFA5D1972C3AA72C008DE24C /* PrivatesAuctionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2303C739295DDB2800901E21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2303C73A295DDB2800901E21 /* Base */,
+				EF49CEE32B2C819F005C9C2A /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2303C73E295DDB2A00901E21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2303C73F295DDB2A00901E21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2303C742295DDB2A00901E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2303C743295DDB2A00901E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2303C745295DDB2A00901E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = QTVU92PM3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CiuffCiuff/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gio.CiuffCiuff;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2303C746295DDB2A00901E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = QTVU92PM3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CiuffCiuff/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gio.CiuffCiuff;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2303C72B295DDB2800901E21 /* Build configuration list for PBXProject "CiuffCiuff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2303C742295DDB2A00901E21 /* Debug */,
+				2303C743295DDB2A00901E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2303C744295DDB2A00901E21 /* Build configuration list for PBXNativeTarget "CiuffCiuff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2303C745295DDB2A00901E21 /* Debug */,
+				2303C746295DDB2A00901E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2303C728295DDB2800901E21 /* Project object */;
+}

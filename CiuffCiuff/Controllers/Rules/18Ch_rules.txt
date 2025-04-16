@@ -1,0 +1,39 @@
+@bSetup:
+@nUse D-trains 900£ (700£)
+@l
+@bFloat: @n60%
+@l
+@bBuilding tracks: @nsemi-restrictive
+@l
+@bStock Round:
+@nSell -> Buy
+Cannot sell in the first stock round
+@l
+@bOperating Round:
+@nexport a 2/3/4 train at the end of each round
+@l
+@n----------------------------------------------
+@b"Off The Rails" expansion:
+@l
+@bSetup:
+@nUse the "Off the rails" stock market board
+Use D-trains 1100£ (800£)
+remove two copies of each 2/3/4 trains and one copy of 5-train
+@l
+@bFloat: @n50%
+@l
+@bBuilding tracks: @nsemi-restrictive
+@l
+@bStock Round:
+@nSell -> Buy -> Sell
+Cannot sell in the first stock round
+@l
+@bOperating Round:
+@ndo not export trains
+@l
+@bGame end:
+@nalso if company reaches top left share value
+
+
+
+

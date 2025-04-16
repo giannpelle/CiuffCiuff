@@ -1,0 +1,123 @@
+@bPrivates auction:
+@nOn your turn you may:
+- buy a private company at its face value
+- reduce the cost of a private company by 5 pounds
+- pass (if player owns at least 1 private company OR cannot reduce any private price)
+@l
+@nIf a player cannot reduce any private price and no private has been sold yet -> mandatory purchase (any private)
+If all players pass in sequence (at least 1 private sold) -> privates pay income
+@l
+@uprivate companies do not count against certificate limits
+@l
+@bCommonwealth Railways (COM):
+@uSydney to Adelaide Link:
+@nThe company is launched and begins to operate once 60% of its shares have been bought AND a notional train of infinite range could travel from Sydney to Adelaide.
+(Station tokens don’t act as blockers when applying the second part of this test)
+@l
+@nWith the purchase of the first 6/6+ train, the condition concerning the Sydney-Adelaide link is dropped, the COM is then dealt with like all other public companies and the only difference is the two home stations.
+@l
+@uTiming of launch:
+@nIf all the conditions for the launch of the COM are fulfilled before it would be the COM’s turn to operate in the relevant OR (according to share price order), it starts to operate in the same OR.
+If the second condition (the Sydney-Adelaide link or the purchase of the first 6/6+ train) is fulfilled for the first time by a company with a lower share price, the COM will operate for the first time in the next OR.
+@l
+@nIf in one or both of the cities there is no place for the home station for that city, the token is laid on the edge of the tile or undeveloped hex.
+A station token of the COM lying at the edge of a tile has the same properties as any placed station token.
+If as a result of the development/upgrade of the hex/tile a free place becomes available, the token is immediately moved from the edge of the hex/tile to this place.
+@l
+@bBank of England (BoE):
+@nIt holds 2000 pounds of extra money that can enter the game via its 20 loan markers.
+Its share value depends on the number of loans that have been issued (is the highest value visible on its chart).
+Payout is based on the current game phase (yellow/green/brown) and the companies that are in receivership.
+@l
+@uTrain removals:
+@nAt the moment the second company is taken over by the Bank of England, the cheapest permanent train (5/5+, 6/6+, 8/D) on sale from the Bank is removed from the game.
+At the moment the fifth company is taken over by the Bank of England, the cheapest permanent train (5/5+, 6/6+, 8/D) on sale from the Bank is removed from the game.
+@l
+@bCompanies in Receivership:
+@nIf the share price marker of a company reaches the left-most column of the Share Price Chart, the company is immediately taken over by the Bank of England.
+@l
+@uCompensation:
+@nThe company must pay compensation, at the initial share price, for all shares owned by players other than the Director.
+(No compensation is paid for the Director’s shares)
+If the company doesn’t have enough capital to pay the compensation, the Director is liable.
+The company may not in this situation take out further loans in order to pay the compensation to the other shareholders.
+@l
+@uThe Director is Liable:
+@nIf the Director doesn’t have enough money, he must sell shares following the usual rules.
+If this does not raise enough money in order to pay out his fellow shareholders,
+he must borrow the remaining amount from the bank (interest free).
+As soon as the player has income (from dividends or the sale of shares) he must immediately pay back the borrowed money.
+Compensation is not paid for shares in the Director’s possession, shares in the Bank or shares in the Bank Pool.
+@l
+@uCertificate Limit Adjustments:
+@nThe Certificate Limit is reduced accordingly:
+- All Players are reduced based on the certificate limits on the game board.
+- In a 3 or 4 player game the share limit for the former Director is reduced by an additional 2.
+- In a 5 or 6 player game the share limit for the former Director is reduced by an additional 1.
+@l
+@nAny remaining money in the company’s treasury is given back to the Bank.
+Trains and other company papers are removed from the game.
+Station tokens are flipped over and remain on the map for the Bank of England.
+@l
+@nBank of England Income Increase:
+@nThe Bank of England administers the companies in receivership.
+For each company it adds the values of the cities under the station tokens to its basic income per round.
+If the Bank of England has more than one station token in a city, it counts the value of the city for each of them.
+@l
+@bLoans:
+@nOnce the first 3/3+ train has been purchased companies can take out loans from the Bank of England.
+Max 1 loan per OR (anytime) -> 100 pounds cash (may not be paid back) and share value is moved LEFT twice.
+Max 5 loans taken voluntarily
+If a company takes out more than 1 loan in an OR (only possible in the case of a mandatory train purchase), the second and subsequent loans each result in a share price shift of 3 to the left.
+@l
+@bOperating Round:
+@nprivates -> BoE -> public companies
+From green phase: may lay 2 yellow tiles / upgrade
+Bank shares pay bank (not the company)
+@l
+@bBuilding tracks: @nsemi-permissive
+@l
+@bChanges of Gauge:
+@nDifferent parts of Australia used different gauges. This is indicated on the map by the three different background colors.
+If, as a result of the laying or upgrading of a tile, a gauge change occurs (track crosses from an area of one background color into an area of another), a gauge change marker (white disk) is placed between the two hexes.
+This marker counts against the range of trains running the route as though it were a large station of value 0.
+The plus-trains can include exactly one such marker in addition to their indicated range.
+@l
+@bTrains:
+@nWhen you buy a train from the bank, you decide if you will purchase the Standard train or a + train.
+Small towns and harbours do not count for train ranges.
+@l
+@uThe Ghan:
+@nThese become available after the purchase of the first 5/5+ train.
+A route for the 2E consists of two locations: it starts at one of the company’s own station tokens and ends at the Alice Springs off-board location.
+Any number of intervening stations may be skipped, but the route may not go through a city that is completely blocked.
+The following special rules apply to these trains:
+- “The Ghan” train only counts Alice Springs and the city where it starts.
+- It can never receive the K-K-bonus.
+- Owning a 2E is not enough to meet the requirement that a company must own a train.
+- A 2E does not count against a company’s Train Limit.
+- Each company may own at most one 2E.
+- 2E trains can not be traded between companies.
+@l
+@uMandatory train purchase:
+@nif company has insufficient funds -> take loans (no limits), NO president cash
+Either receivership OR survive
+@l
+@uK-K Bonus:
+@nWhenever the route of one train includes two K-Cities there is a bonus of £50.
+3 K-cities -> +100 £
+4 K-cities -> +150 £
+5 K-cities -> +200 £
+@l
+@bStock Round:
+@nSell -> Buy
+In a 3-player game (President can hold up to 70% company shares)
+SELL -> drop one space per sale, not one space per share
+@l
+@bFloat: @n60%
+@l
+@bEND GAME:
+@nBank bankrupt -> If the Bank runs out of money during a Stock Round, one more complete set of Operating Rounds is played.
+Comp reaches 450 £ share value
+BoE issued 16+ loans
+5+ companies in receivership

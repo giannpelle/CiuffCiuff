@@ -1,0 +1,104 @@
+@bSetup:
+@neach player receives one "Pre-emptive Right for a Share Company" card
+Use the correct side of the map board
+make a stack of tram cards following the table on the share price board
+place share price and station markers on map for all 4 stadtbahn companies
+@l
+@nIn a 3-player game remove line cards 9, 10, 13, 14, 16, 17
+In a 2-player game remove line cards 8, 9, 10, 11, 12, 13, 14, 16, 17
+set aside Line 2, shuffle the rest and draw #numberOfPlayers + 1
+(put back line 2, shuffle and set stack aside)
+@l
+@nIn a 3-player game remove Stadtbahn V company and "Prater" private company
+In a 2-player game remove Stadtbahn V company and "Prater", "Schonbrunn" private companies
+@l
+@nOne tram company per player (other comps are discarded), must buy 50% on first SR
+(player chooses PAR and uses 350 gulden card) -> floats immediately
+stadtbahn companies have no director, imaginary tram, no track tiles laying, always payout
+@l
+@bGenerals:
+@nprivates may be returned to the bank for face value (anytime, any owner)
+from Line round 2a privates may be sold from 1 gulden to face value
+a tram company may own up to 3 lines (but may buy max 1 per Company Round)
+@l
+@bMap board:
+@nall hexes have either a town or city (empty hex = town)
+light red hexes require red track tile
+purple hexes require purple track tile
+orange hexes require orange bordered tiles
+@l
+@bPrivates auction:
+@non your turn you either:
+pass
+select a private to be auctioned by bidding at least its face value (or a multiple of 5)
+if one pass, he cannot re-enter the same auction
+If all players pass (at least one private sold), all privates payout their income
+If all players pass (no privates sold), minus 5 $ to first private's face value.
+If cost reach 0 $, first player must take it for free
+AT END -> Player with least money chooses the order position card,
+and so on until every player has an order position card
+@l
+@bStock Round:
+@nSell -> Buy
+Cannot sell in the first stock round
+SELL -> Drop one space per share sold
+Lowest playing order card to the player with most money and so on (ties remain unchanged)
+Stadtbahn companies do not Bump
+@l
+@bCompany Rounds:
+@na) private companies pays income to owners
+b) shift tram cards once
+c) set company order (by share value descending)
+d) Each TC's' director manage the Revenue earned by all their TC's lines (in company order):
+all, part or none of the income may be distributed to shareholders
+(change is moved to the bank)
+@l
+@uStadtbahn companies@n run and pay dividends to shareholders (in share value order)
+they @ucount halts and own station markers@n (if destroyed, ignore that city)
+@l
+@nBuy 1+ trams + rearrange trams (even without purchase)
+Max 3 trams per Tram Company
+companies cannot trade trams between them, but trams may be volontarily scrapped
+@l
+@nIf a comp has no tram -> Mandatory purchase (regardless of number of lines, ONE tram is enough)
+Director may buy ANY tram (president uses personal cash if necessary)
+Directors may take loans (+100 immediately, -200 at game end)
+@l
+@ne) Auctioning Lines (skip if all TCs have 3 lines)
+in TCs order, director may start an auction for a line or pass (out for entire round)
+minimum bid is 20 gulden (raises in multiple of 5)
+max 1 line purchase per round per director (max 3 lines in total)
+during auction, if you pass you cannot rejoin same auction
+winning company pay the bid and remove company token (may buy + rearrange trams)
+-> leftmost company may start an auction for a line or pass
+@l
+@nall companies which did not buy lines, may buy + rearrange trams in order
+@l
+@nf) if any company has space for a new line, draw (players + 1) new line cards (keep old ones)
+@l
+@bLine Rounds:
+@n1) Lines operate in ascending numerical order
+2) @bOnly cities with a owned station marker sums up their revenue
+@n3) In any order (max once each)
+- lay or upgrade
+- lay a yellow stadtbahn tile for 20 gulden (and perform bonus action)
+- place station marker
+@l
+@nbonus actions (all optional):
+lay additional yellow tile (must trace route to place it, cannot place stadtbahn tile)
+lay a red inner city tile (only way to place red tiles, must trace route to place it)
+lay a purple railway station tile (only way to place purple tiles, must trace route to place it)
+(there is one less bonus action then purple locations -> one will remain empty for entire game)
+(L30, L31 are reserved for F24, G11 track positions)
+upgrade a yellow tile to green (only from green phase onwards, must trace route to place it)
+(can be stadtbahn yellow -> green upgrade)
+place additional station marker FOR FREE
+@l
+@na line may destory a stadtbahn station marker by paying 40 gulden to the bank
+@l
+@n(anytime from LR2a, line may buy private company from player)
+@l
+@n4) run tram (acts as a Diesel)
+if a tram run is negative, Tram company has to pay the shortfall (Revenue -> Treasury -> President -> Loans)
+Note: @ua Tram company may voluntarily discard a tram at any time
+@nIf a line does not have a tram, it generates zero revenue then proceed to next line

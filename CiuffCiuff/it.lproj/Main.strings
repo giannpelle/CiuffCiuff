@@ -1,0 +1,401 @@
+
+/* Class = "UIButton"; configuration.title = "50"; ObjectID = "0j7-et-wvn"; */
+"0j7-et-wvn.configuration.title" = "50";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "0j7-et-wvn"; */
+"0j7-et-wvn.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Add players (max 10 characters each)"; ObjectID = "0jN-Rh-bl1"; */
+"0jN-Rh-bl1.text" = "Aggiungi giocatori (massimo 8 caratteri ciascuno)";
+
+/* Class = "UIButton"; configuration.title = "Commit"; ObjectID = "1by-iD-pjC"; */
+"1by-iD-pjC.configuration.title" = "Esegui";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "1by-iD-pjC"; */
+"1by-iD-pjC.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Income phase"; ObjectID = "2OK-Pi-BC3"; */
+"2OK-Pi-BC3.text" = "Fase di rendita";
+
+/* Class = "UIButton"; configuration.title = "Cancel"; ObjectID = "3DI-SK-bkc"; */
+"3DI-SK-bkc.configuration.title" = "Annulla";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "3DI-SK-bkc"; */
+"3DI-SK-bkc.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Player"; ObjectID = "3m9-FV-BZo"; */
+"3m9-FV-BZo.text" = "Giocatore";
+
+/* Class = "UIButton"; configuration.title = "0"; ObjectID = "4Yf-oq-0aP"; */
+"4Yf-oq-0aP.configuration.title" = "0";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4Yf-oq-0aP"; */
+"4Yf-oq-0aP.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "4"; ObjectID = "4bU-gv-hYK"; */
+"4bU-gv-hYK.configuration.title" = "4";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4bU-gv-hYK"; */
+"4bU-gv-hYK.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "X"; ObjectID = "52t-VC-Qwe"; */
+"52t-VC-Qwe.configuration.title" = "X";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "52t-VC-Qwe"; */
+"52t-VC-Qwe.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Commit"; ObjectID = "6xS-Xr-XmE"; */
+"6xS-Xr-XmE.configuration.title" = "Esegui";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "6xS-Xr-XmE"; */
+"6xS-Xr-XmE.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "10"; ObjectID = "7b6-DU-S8B"; */
+"7b6-DU-S8B.configuration.title" = "10";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "7b6-DU-S8B"; */
+"7b6-DU-S8B.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Close"; ObjectID = "9WI-hN-Wzx"; */
+"9WI-hN-Wzx.configuration.title" = "Chiudi";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "9WI-hN-Wzx"; */
+"9WI-hN-Wzx.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Cancel"; ObjectID = "AmB-kF-svr"; */
+"AmB-kF-svr.configuration.title" = "Annulla";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "AmB-kF-svr"; */
+"AmB-kF-svr.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Player"; ObjectID = "Aws-Hv-Qp5"; */
+"Aws-Hv-Qp5.text" = "Giocatore";
+
+/* Class = "UIButton"; configuration.title = "9"; ObjectID = "BQQ-0l-r6K"; */
+"BQQ-0l-r6K.configuration.title" = "9";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "BQQ-0l-r6K"; */
+"BQQ-0l-r6K.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Player"; ObjectID = "D4s-9r-gxx"; */
+"D4s-9r-gxx.text" = "Giocatore";
+
+/* Class = "UILabel"; text = "history"; ObjectID = "DpC-bU-VQq"; */
+"DpC-bU-VQq.text" = "Cronologia";
+
+/* Class = "UIButton"; configuration.title = "X"; ObjectID = "Dt3-Wz-5n3"; */
+"Dt3-Wz-5n3.configuration.title" = "X";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Dt3-Wz-5n3"; */
+"Dt3-Wz-5n3.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Cmp"; ObjectID = "FaL-XO-cQr"; */
+"FaL-XO-cQr.text" = "Cmp";
+
+/* Class = "UILabel"; text = "Destination:"; ObjectID = "Fex-DQ-JwV"; */
+"Fex-DQ-JwV.text" = "Destinatario:";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "GHg-0l-KB9"; */
+"GHg-0l-KB9.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "JxF-Do-tey"; */
+"JxF-Do-tey.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "2"; ObjectID = "KyV-Aa-kC8"; */
+"KyV-Aa-kC8.configuration.title" = "2";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "KyV-Aa-kC8"; */
+"KyV-Aa-kC8.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "shareholder"; ObjectID = "LYB-GK-1cG"; */
+"LYB-GK-1cG.text" = "azionista";
+
+/* Class = "UIButton"; configuration.title = "5"; ObjectID = "Lr1-9M-y2b"; */
+"Lr1-9M-y2b.configuration.title" = "5";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Lr1-9M-y2b"; */
+"Lr1-9M-y2b.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Cmp"; ObjectID = "Lrj-e2-zgF"; */
+"Lrj-e2-zgF.text" = "Cmp";
+
+/* Class = "UIButton"; configuration.title = "6"; ObjectID = "M0n-hM-Bsn"; */
+"M0n-hM-Bsn.configuration.title" = "6";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "M0n-hM-Bsn"; */
+"M0n-hM-Bsn.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Portfolio"; ObjectID = "NPN-Fg-vbb"; */
+"NPN-Fg-vbb.text" = "Portafoglio";
+
+/* Class = "UILabel"; text = "Welcome"; ObjectID = "OC2-cm-QQW"; */
+"OC2-cm-QQW.text" = "Benvenuto";
+
+/* Class = "UIButton"; configuration.title = "3"; ObjectID = "OL1-r4-K9R"; */
+"OL1-r4-K9R.configuration.title" = "3";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "OL1-r4-K9R"; */
+"OL1-r4-K9R.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "0 shares"; ObjectID = "OaA-uS-JHi"; */
+"OaA-uS-JHi.text" = "0 azioni";
+
+/* Class = "UILabel"; text = "Player"; ObjectID = "PIa-4k-Ns9"; */
+"PIa-4k-Ns9.text" = "Giocatore";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Ph5-G3-SWB"; */
+"Ph5-G3-SWB.normalTitle" = "Button";
+
+/* Class = "UISegmentedControl"; QQF-9w-BQ3.segmentTitles[0] = "BUY"; ObjectID = "QQF-9w-BQ3"; */
+"QQF-9w-BQ3.segmentTitles[0]" = "COMPRA";
+
+/* Class = "UISegmentedControl"; QQF-9w-BQ3.segmentTitles[1] = "SELL"; ObjectID = "QQF-9w-BQ3"; */
+"QQF-9w-BQ3.segmentTitles[1]" = "VENDE";
+
+/* Class = "UILabel"; text = "operation title"; ObjectID = "RfP-eG-mTC"; */
+"RfP-eG-mTC.text" = "operation title";
+
+/* Class = "UIButton"; configuration.title = "8"; ObjectID = "RgD-OR-0mV"; */
+"RgD-OR-0mV.configuration.title" = "8";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "RgD-OR-0mV"; */
+"RgD-OR-0mV.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Player"; ObjectID = "Rmg-Aq-gTk"; */
+"Rmg-Aq-gTk.text" = "Giocatore";
+
+/* Class = "UILabel"; text = "entity"; ObjectID = "SDZ-hV-UyE"; */
+"SDZ-hV-UyE.text" = "entity";
+
+/* Class = "UILabel"; text = "Company name"; ObjectID = "UcU-VG-6aU"; */
+"UcU-VG-6aU.text" = "Company name";
+
+/* Class = "UILabel"; text = "Choose game"; ObjectID = "V7f-jR-kdI"; */
+"V7f-jR-kdI.text" = "Scegli gioco";
+
+/* Class = "UILabel"; text = "company"; ObjectID = "W7a-Qa-3rL"; */
+"W7a-Qa-3rL.text" = "Compagnia";
+
+/* Class = "UILabel"; text = "Player"; ObjectID = "WDN-U0-BcR"; */
+"WDN-U0-BcR.text" = "Giocatore";
+
+/* Class = "UIButton"; configuration.title = "9"; ObjectID = "Wtj-T9-a1z"; */
+"Wtj-T9-a1z.configuration.title" = "9";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Wtj-T9-a1z"; */
+"Wtj-T9-a1z.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "8"; ObjectID = "WxX-4c-zYf"; */
+"WxX-4c-zYf.configuration.title" = "8";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "WxX-4c-zYf"; */
+"WxX-4c-zYf.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Done"; ObjectID = "Z3Z-fB-fc2"; */
+"Z3Z-fB-fc2.configuration.title" = "Fatto";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Z3Z-fB-fc2"; */
+"Z3Z-fB-fc2.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Reset"; ObjectID = "ZMI-9n-icE"; */
+"ZMI-9n-icE.normalTitle" = "Azzera";
+
+/* Class = "UIButton"; configuration.title = "7"; ObjectID = "ag5-il-nmP"; */
+"ag5-il-nmP.configuration.title" = "7";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ag5-il-nmP"; */
+"ag5-il-nmP.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Close"; ObjectID = "c7S-Rg-mAc"; */
+"c7S-Rg-mAc.configuration.title" = "Chiudi";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "c7S-Rg-mAc"; */
+"c7S-Rg-mAc.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Player"; ObjectID = "cNX-oW-KSo"; */
+"cNX-oW-KSo.text" = "Giocatore";
+
+/* Class = "UISegmentedControl"; cV6-6T-CDR.segmentTitles[0] = "PAYOUT"; ObjectID = "cV6-6T-CDR"; */
+"cV6-6T-CDR.segmentTitles[0]" = "DIVIDENDI";
+
+/* Class = "UISegmentedControl"; cV6-6T-CDR.segmentTitles[1] = "WITHHOLD"; ObjectID = "cV6-6T-CDR"; */
+"cV6-6T-CDR.segmentTitles[1]" = "TRATTIENE";
+
+/* Class = "UILabel"; text = "Game State"; ObjectID = "ce0-Yl-lI1"; */
+"ce0-Yl-lI1.text" = "Stato del gioco";
+
+/* Class = "UIButton"; configuration.title = "Close"; ObjectID = "d4d-b7-M4d"; */
+"d4d-b7-M4d.configuration.title" = "Chiudi";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "d4d-b7-M4d"; */
+"d4d-b7-M4d.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "2"; ObjectID = "d4g-wh-OFz"; */
+"d4g-wh-OFz.configuration.title" = "2";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "d4g-wh-OFz"; */
+"d4g-wh-OFz.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "3"; ObjectID = "d7d-sd-c33"; */
+"d7d-sd-c33.configuration.title" = "3";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "d7d-sd-c33"; */
+"d7d-sd-c33.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "doc-Gc-OdM"; */
+"doc-Gc-OdM.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Cmp"; ObjectID = "eBV-5m-osq"; */
+"eBV-5m-osq.text" = "Cmp";
+
+/* Class = "UIButton"; configuration.title = "Cancel"; ObjectID = "ecR-gd-CSG"; */
+"ecR-gd-CSG.configuration.title" = "Annulla";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ecR-gd-CSG"; */
+"ecR-gd-CSG.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "20"; ObjectID = "eif-XD-53l"; */
+"eif-XD-53l.configuration.title" = "20";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "eif-XD-53l"; */
+"eif-XD-53l.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Cmp"; ObjectID = "fX9-Pt-RDJ"; */
+"fX9-Pt-RDJ.text" = "Cmp";
+
+/* Class = "UILabel"; text = "company"; ObjectID = "fdV-1b-pd2"; */
+"fdV-1b-pd2.text" = "Compagnia";
+
+/* Class = "UILabel"; text = "Last Op round"; ObjectID = "haB-mS-Tnz"; */
+"haB-mS-Tnz.text" = "Ultimo round operativo";
+
+/* Class = "UILabel"; text = "Player"; ObjectID = "hsi-vH-Gga"; */
+"hsi-vH-Gga.text" = "Giocatore";
+
+/* Class = "UISegmentedControl"; izJ-PI-Gkg.segmentTitles[0] = "1830"; ObjectID = "izJ-PI-Gkg"; */
+"izJ-PI-Gkg.segmentTitles[0]" = "1830";
+
+/* Class = "UISegmentedControl"; izJ-PI-Gkg.segmentTitles[1] = "1849"; ObjectID = "izJ-PI-Gkg"; */
+"izJ-PI-Gkg.segmentTitles[1]" = "1849";
+
+/* Class = "UISegmentedControl"; izJ-PI-Gkg.segmentTitles[2] = "18Chesapeake"; ObjectID = "izJ-PI-Gkg"; */
+"izJ-PI-Gkg.segmentTitles[2]" = "18Chesapeake";
+
+/* Class = "UISegmentedControl"; izJ-PI-Gkg.segmentTitles[3] = "1889"; ObjectID = "izJ-PI-Gkg"; */
+"izJ-PI-Gkg.segmentTitles[3]" = "1889";
+
+/* Class = "UIButton"; configuration.title = "5"; ObjectID = "j4f-c3-rvU"; */
+"j4f-c3-rvU.configuration.title" = "5";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "j4f-c3-rvU"; */
+"j4f-c3-rvU.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "amount £"; ObjectID = "jJ4-p6-uL0"; */
+"jJ4-p6-uL0.text" = "amount £";
+
+/* Class = "UILabel"; text = "0 £"; ObjectID = "jo9-1S-z8J"; */
+"jo9-1S-z8J.text" = "0 £";
+
+/* Class = "UILabel"; text = "0 shares"; ObjectID = "kU3-Kp-X95"; */
+"kU3-Kp-X95.text" = "0 azioni";
+
+/* Class = "UIButton"; normalTitle = "Reset"; ObjectID = "mUO-lS-W5E"; */
+"mUO-lS-W5E.normalTitle" = "Azzera";
+
+/* Class = "UILabel"; text = "Player"; ObjectID = "mdR-iB-l8R"; */
+"mdR-iB-l8R.text" = "Giocatore";
+
+/* Class = "UILabel"; text = "amount £"; ObjectID = "nbM-SD-DRd"; */
+"nbM-SD-DRd.text" = "amount £";
+
+/* Class = "UILabel"; text = "Player"; ObjectID = "oQY-aI-7id"; */
+"oQY-aI-7id.text" = "Giocatore";
+
+/* Class = "UIButton"; normalTitle = "Reset"; ObjectID = "qFx-IR-WaF"; */
+"qFx-IR-WaF.normalTitle" = "Azzera";
+
+/* Class = "UILabel"; text = "Player"; ObjectID = "sAx-XV-JnM"; */
+"sAx-XV-JnM.text" = "Giocatore";
+
+/* Class = "UILabel"; text = "starting amount"; ObjectID = "sIo-ej-E66"; */
+"sIo-ej-E66.text" = "somma iniziale";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "sR4-Au-LJr"; */
+"sR4-Au-LJr.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "7"; ObjectID = "sSO-te-Ggi"; */
+"sSO-te-Ggi.configuration.title" = "7";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "sSO-te-Ggi"; */
+"sSO-te-Ggi.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Player"; ObjectID = "seK-e9-cKK"; */
+"seK-e9-cKK.text" = "Giocatore";
+
+/* Class = "UILabel"; text = "Player"; ObjectID = "tiu-i0-r8Y"; */
+"tiu-i0-r8Y.text" = "Giocatore";
+
+/* Class = "UIButton"; configuration.title = "0"; ObjectID = "txb-oO-g8E"; */
+"txb-oO-g8E.configuration.title" = "0";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "txb-oO-g8E"; */
+"txb-oO-g8E.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Cmp"; ObjectID = "uwU-kx-RWD"; */
+"uwU-kx-RWD.text" = "Cmp";
+
+/* Class = "UILabel"; text = "Cmp"; ObjectID = "uyP-ka-anT"; */
+"uyP-ka-anT.text" = "Cmp";
+
+/* Class = "UIButton"; configuration.title = "Commit"; ObjectID = "vSX-fq-1hD"; */
+"vSX-fq-1hD.configuration.title" = "Esegui";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "vSX-fq-1hD"; */
+"vSX-fq-1hD.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Cmp"; ObjectID = "vdH-L0-IHy"; */
+"vdH-L0-IHy.text" = "Cmp";
+
+/* Class = "UIButton"; configuration.title = "6"; ObjectID = "vjh-tO-khT"; */
+"vjh-tO-khT.configuration.title" = "6";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "vjh-tO-khT"; */
+"vjh-tO-khT.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Commit"; ObjectID = "w9h-ME-scZ"; */
+"w9h-ME-scZ.configuration.title" = "Esegui";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "w9h-ME-scZ"; */
+"w9h-ME-scZ.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Cmp"; ObjectID = "wEL-tv-xO3"; */
+"wEL-tv-xO3.text" = "Cmp";
+
+/* Class = "UIButton"; configuration.title = "1"; ObjectID = "xk7-Ug-X3v"; */
+"xk7-Ug-X3v.configuration.title" = "1";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xk7-Ug-X3v"; */
+"xk7-Ug-X3v.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "1"; ObjectID = "xy3-Y3-hmk"; */
+"xy3-Y3-hmk.configuration.title" = "1";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xy3-Y3-hmk"; */
+"xy3-Y3-hmk.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "5"; ObjectID = "ypv-yb-1hx"; */
+"ypv-yb-1hx.configuration.title" = "5";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ypv-yb-1hx"; */
+"ypv-yb-1hx.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "yrb-he-Oza"; */
+"yrb-he-Oza.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "4"; ObjectID = "ywL-kD-X9O"; */
+"ywL-kD-X9O.configuration.title" = "4";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ywL-kD-X9O"; */
+"ywL-kD-X9O.normalTitle" = "Button";
+
+"E1Z-U9-WHO.text" = "Chiudi";
